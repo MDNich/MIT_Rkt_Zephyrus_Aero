@@ -1,6 +1,6 @@
 # MIT_Rkt_Zephyrus_Aero
 
-This repository appears to be dedicated to aerodynamic research and design for the Zephyrus MIT Rocket Team project.
+*Aerodynamic research and design for the Zephyrus MIT Rocket Team project.*
 
 ## Repository Structure
 
