@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<version>1</version>
+	<name>test</name>
+	<uuid>f5295b70-3ae2-4f56-aea7-a3461433b373</uuid>
+	<directory>prj1</directory>
+	<vwr_res_files_dir>1</vwr_res_files_dir>
+	<geom_db_uuid>dad52261-868a-4aee-bf48-d1fcb50f46a6</geom_db_uuid>
+	<gdb_light_uuid>5cea48bf-a4a7-4e0b-95ed-26636b6180f5</gdb_light_uuid>
+	<model_geom_uuid/>
+	<template_id/>
+</project>

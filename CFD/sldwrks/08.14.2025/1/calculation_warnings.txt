@@ -1,0 +1,7 @@
+2025-Aug-14 16:12:54
+Computer name:	MARCDNICHITBF25
+Number of cores used in calculation:	14
+Configuration name:	20deg
+Project name:	test
+
+Warnings on last iteration: 
