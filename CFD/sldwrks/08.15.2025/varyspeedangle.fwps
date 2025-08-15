@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings product="FLOEFD" version ="1">
+<FolderName value="\Parametric Study 2"/>
+<Criteria index="0">
+</Criteria>
+<Globals index="0">
+<MaxSolvers value="2"/>
+<StudyMode value="0"/>
+<Units value="jAMAAJ0AAAAAAAAAIAMAACwBAABkAAAAeAUAAKQGAAA0CAAATAQAAGwHAADECQAAAAAAAIQDAADoAwAACAcAALAEAAD1AQAAkAEAANwFAADQBwAAvAIAABQFAABABgAAWAIAAJgIAABgCQAA/AgAAMgAAAAoCgAAjAoAAFgCAAAQJwAA8AoAAFQLAAC4CwAASA0AAKwNAAAQDgAAdA4AANgOAAA8DwAAoA8AAAQQAAARJwAAzBAAADARAACUEQAA+BEAAFwSAAAAAAAAAAAAAAAAAADAEgAAJBMAAIgTAADsEwAAUBQAALQUAAAYFQAAAAAAAAAAAAAAAAAAAAAAAAwXAABwFwAA1BcAADgYAACcGAAAABkAAGYZAADIGQAALRoAAJAaAAAgHAAAEScAABAnAABMHQAAsB0AABQeAAB4HgAA3B4AAEAfAACkHwAACCAAAGwgAADQIAAANCEAAJghAAD8IQAAYSIAAMQiAAAoIwAAjCMAAPAjAABUJAAAuCQAABwlAACAJQAA5CUAAEgmAACsJgAAAAAAAHQnAADZJwAAPSgAAKAoAAAFKQAAaSkAAM0pAAAxKgAAlCoAAPgqAABcKwAAwCsAACQsAACILAAA7CwAAFAtAAC0LQAAGC4AAHwuAADgLgAARC8AAKgvAAAMMAAAcDAAANQwAAA4MQAAnTEAAAEyAABkMgAAyTIAACwzAACQMwAA9DMAAFg0AAC+NAAAIDUAAIQ1AADoNQAATDYAALA2AAAUNwAAfTcAAN83AABAOAAApDgAAAg5AABsOQAA0DkAADQ6AACYOgAA/DoAAGA7AADEOwAAKDwAAIw8AADwPAAAnQAAAAAAAAACAAAAAwAAAAQAAAACAAAABAAAAAMAAAADAAAAAwAAAAcAAAADAAAAAwAAAAQAAAAEAAAAAgAAAAEAAAAGAAAAAQAAAAMAAAADAAAAAgAAAAQAAAADAAAAAgAAAAMAAAADAAAABgAAAAUAAAADAAAAAAAAAAIAAAADAAAABAAAAAIAAAADAAAABAAAAAQAAAAEAAAAAwAAAAMAAAADAAAAAwAAAAAAAAABAAAAAgAAAAIAAAACAAAAAwAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAMAAAADAAAABAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAMAAAAEAAAABAAAAAQAAAACAAAAAgAAAAIAAAAAAAAAAQAAAAAAAAADAAAAAAAAAAIAAAABAAAAAQAAAAEAAAACAAAAAgAAAAEAAAABAAAAAwAAAAMAAAADAAAAAwAAAAAAAAACAAAAAQAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAgAAAAIAAAACAAAAAgAAAAIAAAAAAAAAAgAAAAMAAAAEAAAABgAAAAIAAAAEAAAABAAAAAQAAAACAAAAAgAAAAIAAAACAAAAAgAAAAMAAAAFAAAABQAAAAIAAAAHAAAABwAAAAMAAAAEAAAABAAAAAIAAAAAAAAAAwAAAAUAAAAEAAAABAAAAAcAAAADAAAAAwAAAAQAAAADAAAAAwAAAAMAAAABAAAAAgAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAACdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAnQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="/>
+<Computer index="0">
+<CPUs value="14"/>
+<CPUsLimit value="14"/>
+<Memory value="112"/>
+<Name value="This computer"/>
+<Port value="30950"/>
+<RunMode value="0"/>
+</Computer>
+<ResponseSurface index="0">
+<CqmFile value=""/>
+<NetHeatFlowRsm value=""/>
+</ResponseSurface>
+<Rsm index="0">
+</Rsm>
+</Globals>
+<Goals index="0">
+<Goal index="0">
+<Context value="0"/>
+<Name value="SG Normal Force 1"/>
+<UUID value="4184a24a-d2c4-4ed0-84a3-ebb4bd4cb3b3"/>
+<Units value="7"/>
+</Goal>
+<Goal index="1">
+<Context value="1"/>
+<Name value="SG Normal Force 1"/>
+<UUID value="4184a24a-d2c4-4ed0-84a3-ebb4bd4cb3b3"/>
+<Units value="7"/>
+</Goal>
+</Goals>
+<Parameters index="0">
+<Feature index="0">
+<Group value="0"/>
+<Name value="Initial and Ambient Conditions"/>
+<UUID value="Initial and Ambient Conditions"/>
+</Feature>
+<Feature index="1">
+<Group value="1"/>
+<Name value=""/>
+<UUID value=""/>
+</Feature>
+<Group index="0">
+<ContentType value="0"/>
+<Name value="General Settings"/>
+<Type value="139"/>
+</Group>
+<Group index="1">
+<ContentType value="1"/>
+<Name value=""/>
+<Type value="0"/>
+</Group>
+<Parameter index="0">
+<Class value="0"/>
+<Context value="0"/>
+<Feature value="0"/>
+<Mark value="0"/>
+<Name value="Velocity in X direction"/>
+<ParamPrefix value="0"/>
+<Type value="100"/>
+<Units value="19"/>
+<Value value="0"/>
+<ValueType value="2"/>
+<Variation index="0">
+<Class value="0"/>
+<Values size="3"> 20 40 60 </Values>
+</Variation>
+</Parameter>
+<Parameter index="1">
+<Class value="0"/>
+<Context value="0"/>
+<Feature value="1"/>
+<Mark value="0"/>
+<Name value="D1@Angle1@CFD_assem.Assembly"/>
+<ParamPrefix value="0"/>
+<Type value="-1"/>
+<Units value="2"/>
+<Value value="0"/>
+<ValueType value="2"/>
+<Variation index="0">
+<Class value="0"/>
+<Values size="3"> 0.17453292500000001 0.104719755 0.034906584999999997 </Values>
+</Variation>
+</Parameter>
+<Parameter index="2">
+<Class value="0"/>
+<Context value="1"/>
+<Feature value="0"/>
+<Mark value="0"/>
+<Name value="Velocity in X direction"/>
+<ParamPrefix value="0"/>
+<Type value="100"/>
+<Units value="19"/>
+<Value value="0"/>
+<ValueType value="2"/>
+<Variation index="0">
+<Class value="0"/>
+<Values size="3"> 20 40 60 </Values>
+</Variation>
+</Parameter>
+<Parameter index="3">
+<Class value="0"/>
+<Context value="1"/>
+<Feature value="1"/>
+<Mark value="0"/>
+<Name value="D1@Angle1@CFD_assem.Assembly"/>
+<ParamPrefix value="0"/>
+<Type value="-1"/>
+<Units value="2"/>
+<Value value="0"/>
+<ValueType value="2"/>
+<Variation index="0">
+<Class value="0"/>
+<Values size="3"> 0.17453292500000001 0.104719755 0.034906584999999997 </Values>
+</Variation>
+</Parameter>
+</Parameters>
+<ScenarioCriteria index="0">
+</ScenarioCriteria>
+<Scenarios index="0">
+<Scenario index="0">
+<CPULimit value="14"/>
+<CloseMonitor value="1"/>
+<Computer value="This computer"/>
+<Modified value="0"/>
+<ParetoPoint value="-1"/>
+<ProjectUUID value="16bde464-25be-4446-b19e-b9e3612fd095"/>
+<Recalculate value="0"/>
+<ResultsPath value="\Parametric Study 2\1|\1.geom|\1.fbd|\1.cpt|\1.fld|\1.cfld|\1.fwp|"/>
+<SaveProject value="1"/>
+<Status value="2"/>
+<TakePreviousResults value="0"/>
+<UseCPULimit value="1"/>
+<UseComputer value="1"/>
+<Criteria index="0">
+<Solved value="1"/>
+<Value value="0.024238188702645221"/>
+</Criteria>
+<Goal index="0">
+<Solved value="1"/>
+<Value value="0.024238188702645221"/>
+</Goal>
+<GoalDiscrepancy index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalDiscrepancy>
+<GoalTargetValue index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalTargetValue>
+<Parameter index="0">
+<Value value="20"/>
+</Parameter>
+<Parameter index="1">
+<Value value="0.17453292500000001"/>
+</Parameter>
+</Scenario>
+<Scenario index="1">
+<CPULimit value="14"/>
+<CloseMonitor value="1"/>
+<Computer value="This computer"/>
+<Modified value="0"/>
+<ParetoPoint value="-1"/>
+<ProjectUUID value="ddbaaf2a-3980-415b-80d9-c53eb59ec66e"/>
+<Recalculate value="0"/>
+<ResultsPath value="\Parametric Study 2\2|\2.geom|\2.fbd|\2.cpt|\2.fld|\2.cfld|\2.fwp|"/>
+<SaveProject value="1"/>
+<Status value="2"/>
+<TakePreviousResults value="0"/>
+<UseCPULimit value="1"/>
+<UseComputer value="1"/>
+<Criteria index="0">
+<Solved value="1"/>
+<Value value="0.09716281666608223"/>
+</Criteria>
+<Goal index="0">
+<Solved value="1"/>
+<Value value="0.09716281666608223"/>
+</Goal>
+<GoalDiscrepancy index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalDiscrepancy>
+<GoalTargetValue index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalTargetValue>
+<Parameter index="0">
+<Value value="40"/>
+</Parameter>
+<Parameter index="1">
+<Value value="0.17453292500000001"/>
+</Parameter>
+</Scenario>
+<Scenario index="2">
+<CPULimit value="14"/>
+<CloseMonitor value="1"/>
+<Computer value="This computer"/>
+<Modified value="0"/>
+<ParetoPoint value="-1"/>
+<ProjectUUID value="93203646-354a-4cb1-80f5-ad0374d6c954"/>
+<Recalculate value="0"/>
+<ResultsPath value="\Parametric Study 2\3|\3.geom|\3.fbd|\3.cpt|\3.fld|\3.cfld|\3.fwp|"/>
+<SaveProject value="1"/>
+<Status value="2"/>
+<TakePreviousResults value="0"/>
+<UseCPULimit value="1"/>
+<UseComputer value="1"/>
+<Criteria index="0">
+<Solved value="1"/>
+<Value value="0.22029289287741016"/>
+</Criteria>
+<Goal index="0">
+<Solved value="1"/>
+<Value value="0.22029289287741016"/>
+</Goal>
+<GoalDiscrepancy index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalDiscrepancy>
+<GoalTargetValue index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalTargetValue>
+<Parameter index="0">
+<Value value="60"/>
+</Parameter>
+<Parameter index="1">
+<Value value="0.17453292500000001"/>
+</Parameter>
+</Scenario>
+<Scenario index="3">
+<CPULimit value="14"/>
+<CloseMonitor value="1"/>
+<Computer value="This computer"/>
+<Modified value="0"/>
+<ParetoPoint value="-1"/>
+<ProjectUUID value="47fc95b9-0fbb-47f9-b2a2-9e065099abb4"/>
+<Recalculate value="0"/>
+<ResultsPath value="\Parametric Study 2\4|\4.geom|\4.fbd|\4.cpt|\4.fld|\4.cfld|\4.fwp|"/>
+<SaveProject value="1"/>
+<Status value="2"/>
+<TakePreviousResults value="0"/>
+<UseCPULimit value="1"/>
+<UseComputer value="1"/>
+<Criteria index="0">
+<Solved value="1"/>
+<Value value="0.024413889289933908"/>
+</Criteria>
+<Goal index="0">
+<Solved value="1"/>
+<Value value="0.024413889289933908"/>
+</Goal>
+<GoalDiscrepancy index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalDiscrepancy>
+<GoalTargetValue index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalTargetValue>
+<Parameter index="0">
+<Value value="20"/>
+</Parameter>
+<Parameter index="1">
+<Value value="0.104719755"/>
+</Parameter>
+</Scenario>
+<Scenario index="4">
+<CPULimit value="14"/>
+<CloseMonitor value="1"/>
+<Computer value="This computer"/>
+<Modified value="0"/>
+<ParetoPoint value="-1"/>
+<ProjectUUID value="159a5088-375e-4ad5-8d1d-8001aa9a031f"/>
+<Recalculate value="0"/>
+<ResultsPath value="\Parametric Study 2\5|\5.geom|\5.fbd|\5.cpt|\5.fld|\5.cfld|\5.fwp|"/>
+<SaveProject value="1"/>
+<Status value="2"/>
+<TakePreviousResults value="0"/>
+<UseCPULimit value="1"/>
+<UseComputer value="1"/>
+<Criteria index="0">
+<Solved value="1"/>
+<Value value="0.097497251610599953"/>
+</Criteria>
+<Goal index="0">
+<Solved value="1"/>
+<Value value="0.097497251610599953"/>
+</Goal>
+<GoalDiscrepancy index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalDiscrepancy>
+<GoalTargetValue index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalTargetValue>
+<Parameter index="0">
+<Value value="40"/>
+</Parameter>
+<Parameter index="1">
+<Value value="0.104719755"/>
+</Parameter>
+</Scenario>
+<Scenario index="5">
+<CPULimit value="14"/>
+<CloseMonitor value="1"/>
+<Computer value="This computer"/>
+<Modified value="0"/>
+<ParetoPoint value="-1"/>
+<ProjectUUID value="a76cc983-0681-4498-9748-018adc626df9"/>
+<Recalculate value="0"/>
+<ResultsPath value="\Parametric Study 2\6|\6.geom|\6.fbd|\6.cpt|\6.fld|\6.cfld|\6.fwp|"/>
+<SaveProject value="1"/>
+<Status value="2"/>
+<TakePreviousResults value="0"/>
+<UseCPULimit value="1"/>
+<UseComputer value="1"/>
+<Criteria index="0">
+<Solved value="1"/>
+<Value value="0.21967909666224039"/>
+</Criteria>
+<Goal index="0">
+<Solved value="1"/>
+<Value value="0.21967909666224039"/>
+</Goal>
+<GoalDiscrepancy index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalDiscrepancy>
+<GoalTargetValue index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalTargetValue>
+<Parameter index="0">
+<Value value="60"/>
+</Parameter>
+<Parameter index="1">
+<Value value="0.104719755"/>
+</Parameter>
+</Scenario>
+<Scenario index="6">
+<CPULimit value="14"/>
+<CloseMonitor value="1"/>
+<Computer value="This computer"/>
+<Modified value="0"/>
+<ParetoPoint value="-1"/>
+<ProjectUUID value="faab502b-cedb-4a56-8db8-e9ba4b55606c"/>
+<Recalculate value="0"/>
+<ResultsPath value="\Parametric Study 2\7|\7.geom|\7.fbd|\7.cpt|\7.fld|\7.cfld|\7.fwp|"/>
+<SaveProject value="1"/>
+<Status value="2"/>
+<TakePreviousResults value="0"/>
+<UseCPULimit value="1"/>
+<UseComputer value="1"/>
+<Criteria index="0">
+<Solved value="1"/>
+<Value value="0.025253732506661176"/>
+</Criteria>
+<Goal index="0">
+<Solved value="1"/>
+<Value value="0.025253732506661176"/>
+</Goal>
+<GoalDiscrepancy index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalDiscrepancy>
+<GoalTargetValue index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalTargetValue>
+<Parameter index="0">
+<Value value="20"/>
+</Parameter>
+<Parameter index="1">
+<Value value="0.034906584999999997"/>
+</Parameter>
+</Scenario>
+<Scenario index="7">
+<CPULimit value="14"/>
+<CloseMonitor value="1"/>
+<Computer value="This computer"/>
+<Modified value="0"/>
+<ParetoPoint value="-1"/>
+<ProjectUUID value="73121620-4bd6-406f-a99c-e4e6909c507a"/>
+<Recalculate value="0"/>
+<ResultsPath value="\Parametric Study 2\8|\8.geom|\8.fbd|\8.cpt|\8.fld|\8.cfld|\8.fwp|"/>
+<SaveProject value="1"/>
+<Status value="2"/>
+<TakePreviousResults value="0"/>
+<UseCPULimit value="1"/>
+<UseComputer value="1"/>
+<Criteria index="0">
+<Solved value="1"/>
+<Value value="0.1006373361040984"/>
+</Criteria>
+<Goal index="0">
+<Solved value="1"/>
+<Value value="0.1006373361040984"/>
+</Goal>
+<GoalDiscrepancy index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalDiscrepancy>
+<GoalTargetValue index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalTargetValue>
+<Parameter index="0">
+<Value value="40"/>
+</Parameter>
+<Parameter index="1">
+<Value value="0.034906584999999997"/>
+</Parameter>
+</Scenario>
+<Scenario index="8">
+<CPULimit value="14"/>
+<CloseMonitor value="1"/>
+<Computer value="This computer"/>
+<Modified value="0"/>
+<ParetoPoint value="-1"/>
+<ProjectUUID value="6fe73549-f7e9-44d1-affc-9aca3b7c40d0"/>
+<Recalculate value="0"/>
+<ResultsPath value="\Parametric Study 2\9|\9.geom|\9.fbd|\9.cpt|\9.fld|\9.cfld|\9.fwp|"/>
+<SaveProject value="1"/>
+<Status value="2"/>
+<TakePreviousResults value="0"/>
+<UseCPULimit value="1"/>
+<UseComputer value="1"/>
+<Criteria index="0">
+<Solved value="1"/>
+<Value value="0.22589019811561228"/>
+</Criteria>
+<Goal index="0">
+<Solved value="1"/>
+<Value value="0.22589019811561228"/>
+</Goal>
+<GoalDiscrepancy index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalDiscrepancy>
+<GoalTargetValue index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalTargetValue>
+<Parameter index="0">
+<Value value="60"/>
+</Parameter>
+<Parameter index="1">
+<Value value="0.034906584999999997"/>
+</Parameter>
+</Scenario>
+</Scenarios>
+</settings>

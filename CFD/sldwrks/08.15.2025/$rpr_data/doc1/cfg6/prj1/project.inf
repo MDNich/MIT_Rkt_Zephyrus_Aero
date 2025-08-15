@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<version>1</version>
+	<name>Design Point 6</name>
+	<uuid>a76cc983-0681-4498-9748-018adc626df9</uuid>
+	<directory>prj1</directory>
+	<vwr_res_files_dir>1\Parametric Study 2\6</vwr_res_files_dir>
+	<geom_db_uuid>1e403788-9955-4115-962a-75ceae9d078e</geom_db_uuid>
+	<gdb_light_uuid>a640857c-98c4-4119-88ce-113baf0f2736</gdb_light_uuid>
+	<model_geom_uuid/>
+	<template_id/>
+</project>

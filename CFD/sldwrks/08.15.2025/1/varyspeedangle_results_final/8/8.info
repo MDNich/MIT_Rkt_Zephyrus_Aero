@@ -1,0 +1,53 @@
+Model: CFD_assem.SLDASM
+Project name: FlowSim
+Config name: 0deg
+Project path: Z:\Developer\MIT_Rkt_Team\Githubs\MIT_Rkt_Zephyrus_Aero\CFD\sldwrks\08.15.2025\1\Parametric Study 2\8\8.xmlconfig
+Status: Finished
+
+Number of cells:
+    Total cells: 58129
+    Fluid cells: 58129
+    Solid cells: 646
+    Fluid cells containing solids: 514
+
+
+Geometry preparation finished: 19:44:49
+Geometry preparation time: 00:00:03
+Solver CPU time: 00:01:06
+Iterations: 78
+Travels: 1.00678
+Physical time: 0.000000e+00 s
+Current time step: 0.000000e+00 s
+Last iteration finished: 19:45:47
+CPU time per last iteration: 00:00:01
+CPU time left: 00:03:09
+Iterations per 1 travel: 78
+
+Goals
+    Name              | Unit (SI) | Value           | Progress  | Critetia        | Delta           | Use in convergence
+    SG Normal Force 1 | force    |            0.10 |     100.0 |            0.00 |            0.00 | On
+
+Project details
+    Default fluids: Air
+    Analysis type: External
+    Heat conduction in solids: Off
+    Radiation: Off
+    Time dependent: Off
+    Gravitational effects: Off
+    Flow type: Laminar
+    Cavitation: Off
+    Hign Mach number flow: On
+    Free surface: Off
+    Structural: Off
+    Electromagnetism: Off
+
+System info
+    Product: Flow Simulation 2025  x64 / 6784 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2
+    CAD version: SOLIDWORKS 2025 SP3.0
+    Computer name: MARCDNICHITBF25
+    User name: mdn
+    Operating system: Windows 11 (or higher) (Version 10.0.22631)
+    Processors:                           Virtual CPU @ 3.20GHz
+    Number of cores: 14
+    Memory: 105349 MB / 114682 MB
+
