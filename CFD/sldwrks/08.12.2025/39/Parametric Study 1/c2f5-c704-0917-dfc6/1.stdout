@@ -1,0 +1,773 @@
+Log started at 12.08.2025	13:49:16
+Number of used processors (NPROC): 14.
+Number of mesh partitions (NPART): 14.
+Computer name:	MARCDNICHITBF25
+Operating system:	Windows 11 (or higher) (Version 10.0.22631)
+Commandline:	"C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS Flow Simulation (3)\BINCFW\efdsolver.exe" /config:"Z:\Developer\MIT_Rkt_Team\Githubs\MIT_Rkt_Zephyrus_Aero\CFD\sldwrks\08.12.2025\39\Parametric Study 1\1\1.xmlconfig" /guid:70a5315a-a7b1-40ec-b12c-6d8d15d8e136 /processors:14 /m /s /prjnamelm:"Flow Simulation 2025" /prjnamehabout:"Flow Simulation 2025" /companyname:"COSMOS Applications" /prjaliasid:1002 /lang:English /port:50538
+Total Physical Memory = 111.99 Gb, Available Physical Memory = 104.92 Gb
+-----------------------------------------------------------------------
+Memory Working Set Current = 70.12 Mb, Memory Working Set Peak = 379.17 Mb
+Memory Private Bytes Current = 55.93 Mb, Memory Private Bytes Peak = 421.22 Mb
+Process Threads Number: 9
+-----------------------------------------------------------------------
+CPU:	AuthenticAMD, Stepping ID = 10, Model = 4, Family = 15, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String:                           Virtual CPU @ 3.20GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 512K
+Number of cores: 14, Processor type: 8664, Active processor mask: 16383, Page size: 4096 bites
+Package 0 [ ProcessorGroup 0 [ 0 ] ]
+Package 1 [ ProcessorGroup 0 [ 1 ] ]
+Package 2 [ ProcessorGroup 0 [ 2 ] ]
+Package 3 [ ProcessorGroup 0 [ 3 ] ]
+Package 4 [ ProcessorGroup 0 [ 4 ] ]
+Package 5 [ ProcessorGroup 0 [ 5 ] ]
+Package 6 [ ProcessorGroup 0 [ 6 ] ]
+Package 7 [ ProcessorGroup 0 [ 7 ] ]
+Package 8 [ ProcessorGroup 0 [ 8 ] ]
+Package 9 [ ProcessorGroup 0 [ 9 ] ]
+Package 10 [ ProcessorGroup 0 [ 10 ] ]
+Package 11 [ ProcessorGroup 0 [ 11 ] ]
+Package 12 [ ProcessorGroup 0 [ 12 ] ]
+Package 13 [ ProcessorGroup 0 [ 13 ] ]
+NUMA Node 0: Available Memory = 104.92 Gb. ProcessorGroup 0 [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 ]
+std::thread::hardware_concurrency = 14
+No NUMA support
+OpenMP enabled (spec=200203). max_threads = 14, num_procs = 14.
+
+SOLIDWORKS 2025 SP3.0
+Z:\Developer\MIT_Rkt_Team\Githubs\MIT_Rkt_Zephyrus_Aero\CFD\sldwrks\08.12.2025\39\Parametric Study 1\1\1.fld
+Configuration name:	2deg
+Project name:	600ms2deg
+/*******************************************/
+/*         Project Summary                 */
+/*******************************************/
+Analysis type:						CFD
+Problem type:						external with void internal space
+Result resolution:					5
+Minimum gap size:					0.25
+Minimum wall thickness:				0.25
+Manual refinement:					Off
+Fluid substances count				1
+
+		Advanced capabilities
+Heat transfer						Off
+Transient						Off
+Gravitation						Off
+Laminar flow						On
+Compressibility					On
+Default wall condition				adiabatic wall
+Roughness:						0
+
+************************************************
+Flow Simulation 2025  x64 / 6784 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2 
+BRANCH: git--efd_2406.6784_25.04.2025
+
+
+
+STATIONARY
+
+
+HYPERSONIC
+LAM-BREMHORST K-EPSILON TURBULENCE MODEL
+EXTERNAL=1  CHT=0  FROZEN=0  RADIATION=0  HVAC_COMFORT_PARAMETERS=0
+IT=6   NT=0   NZ=1
+US_DIM=0
+Solver mode: normal
+X_STACK_LIST::read_x_stack_list4: started...
+X_STACK_LIST::read_x_stack_list4: finished in 0.059 s
+X_STACK_LIST::write_x_stack_list4: started...
+X_STACK_LIST::write_x_stack_list4: finished in 0.096 s
+Memory Status before reading BCF:
+-----------------------------------------------------------------------
+Memory Working Set Current = 75.55 Mb, Memory Working Set Peak = 379.17 Mb
+Memory Private Bytes Current = 59.30 Mb, Memory Private Bytes Peak = 421.22 Mb
+Process Threads Number: 22
+-----------------------------------------------------------------------
+bcf::mesh::read_bcf_mesh: started...
+Read section 436 takes 0.002 s
+Read section 101 takes 0.000 s
+Read section 400 takes 0.076 s
+Read section 437 takes 0.007 s
+Read section 408 takes 0.028 s
+Read section 427 takes 0.014 s
+Read section 446 takes 0.001 s
+Read section 516 takes 0.000 s
+Read section 406 takes 0.079 s
+Read section 405 takes 0.003 s
+Read section 401 takes 0.083 s
+Read section 402 takes 0.056 s
+Adding faces to av takes 0.101 s
+Read section 407 takes 0.004 s
+Read section 421 takes 0.035 s
+Read section 404 takes 0.008 s
+Read section 416 takes 0.034 s
+Read section 411 takes 0.001 s
+Read section 413 takes 0.000 s
+Read section 432 takes 0.000 s
+
+-----------------------------------------------------------------------
+BCF CHECKSUM DATA (Mesh 0):
+
+WARNING! 8 w-face(s) without RefFacesData.
+BRICK |Level1| Sum:               1052
+FACE_A Area Sum:   G.Fluid        948.1950118492329693
+FACE_A Area Sum:   G.Solid        0.4703898134592003
+FACE_W Area Sum:                  27.3631448814383660
+FACE_W Nb   Sum:                  263736
+FACE_W min curvatures sum:        -56459.81488800
+FACE_W max curvatures sum:        1860853.85125351
+AV Max Disbalance(Const) :        8.80833e-09 (cid=184826, t={69, 118, 64}, avid=362225, pid=779)
+AV Max Disbalance(Linear):        1.78021e-07 (cid=178362, t={76, 106, 63}, avid=178305, pid=402)
+-----------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------
+MESHER TOPOLOGY DATA:
+
+BRICKS: Total                 361477
+BRICKS: Fluid                 361199
+BRICKS: Fluid Partial         1077
+BRICKS: Type 1                1077
+BRICKS: Max AV number         3
+BRICKS: |level1| sum          1052
+
+
+AV:     G.Total               362604
+AV:     G.Fluid               361239
+AV:     G.Solid               1365
+
+AV:     G.Fluid Thin Profile    0.00 % (10)
+AV:     G.Solid Thin Profile    2.93 % (40)
+
+AV:     G.Fluid Thin For Mega   0.00 % (1)
+AV:     G.Solid Thin For Mega   0.37 % (5)
+
+AV:     G.Fluid Non-Convex      0.13 % (477)
+AV:     G.Solid Non-Convex     20.44 % (279)
+
+AV:     G.Fluid Non-Ess-Convex      0.13 % (455)
+AV:     G.Solid Non-Ess-Convex     19.19 % (262)
+
+FACE_A: G.Fluid          (af) 1068392 (partially opened 2345)
+FACE_A: G.Solid          (as) 3704 (partially opened 2314)
+
+FACE_W: G.Total                 32881       Brick/Bound
+FACE_W: G.Fluid/Solid    (fs_g) 2161        0           
+FACE_W: G.Fluid/Fluid    (ff_g) 0           0           
+FACE_W: G.Solid/Solid    (ss_g) 0           0           
+FACE_W: G.Fluid/Void     (fv_g) 0           0           
+FACE_W: G.Fluid/External (fe_g) 30720
+FACE_W: G.Solid/External (se_g) 0
+
+AV/CV max fa count (on brick side):4
+AV/CV max fw count:                4
+AV/CV max fw poly count:           28
+
+MEMORY: Total                   97.068 MB
+MEMORY: Per Brick               0.275 KB
+-----------------------------------------------------------------------
+
+-----------------------------------------------------------------------
+Memory Working Set Current = 233.89 Mb, Memory Working Set Peak = 379.17 Mb
+Memory Private Bytes Current = 243.24 Mb, Memory Private Bytes Peak = 421.22 Mb
+Process Threads Number: 22
+-----------------------------------------------------------------------
+----------------------------------------------------------
+BCF --> BCF.GEOMSUBDOM (bridge arrays):
+MESH (0):
+	Front spread algorithm. Partition count = 14
+	Time (front spread): 0.060 s
+	Fluid Subdom Constructor: 1 subdom(s).
+	Front spread algorithm. Partition count = 14
+	Time (front spread): 0.010 s
+	Solid Subdom Constructor: 1 subdom(s).
+	Front spread algorithm. Partition count = 14
+	Time (front spread): 0.001 s
+	Net Asm Subdom Constructor: 0 subdom(s).
+	GEOMSUBDOM (0): gi=0 Fluid av=361239 cv=361231 fa=1068392 fw=32881 V=9.553052e+00
+	Cache data...OK
+	GEOMSUBDOM (1): gi=1 Solid av=1365 cv=1365 fa=3704 fw=2161 V=2.481521e-03
+	Cache data...OK
+	Setting nb of w-faces...OK (0.037 s).
+	Correcting nb of w-faces...
+	Time(correct_fw_nb)=0.046 s
+
+MESH (0) checking:
+	GEOMSUBDOM (0):fa_s=948.1950118492293313 fw_s=27.3631448814383660 fw_nb=263736
+	              :d_const(239395)=6.58378e-09 d_linear(211052)=1.74468e-08
+	GEOMSUBDOM (1):fa_s=0.4703898134592003 fw_s=0.1780080014383646 fw_nb=18000
+	              :d_const(1281)=8.80833e-09 d_linear(1281)=4.61961e-08
+MESH (0) checking: OK.
+Time (MDS): 	0.928 s
+----------------------------------------------------------
+-----------------------------------------------------------------------
+Memory Working Set Current = 364.37 Mb, Memory Working Set Peak = 379.17 Mb
+Memory Private Bytes Current = 398.20 Mb, Memory Private Bytes Peak = 421.22 Mb
+Process Threads Number: 22
+-----------------------------------------------------------------------
+Read section 448 takes 0.000 s
+bcf::mesh::read_bcf_mesh: finished in 1.762 s
+Memory Status after reading BCF:
+-----------------------------------------------------------------------
+Memory Working Set Current = 361.62 Mb, Memory Working Set Peak = 379.17 Mb
+Memory Private Bytes Current = 395.44 Mb, Memory Private Bytes Peak = 421.22 Mb
+Process Threads Number: 22
+-----------------------------------------------------------------------
+Total read CPT took 1.94 sec.
+Save msh-format to file...Write section 408 takes 0.055 s
+Write section 427 takes 0.011 s
+OK (0.130 s).
+MMP (gbs): locals=0, allc_sz=0.00 MB (0.00 MB), used_sz=0.00 MB, blk_sz=(0.00 MB/0.00 MB), blks-min-max=0/0 (big 0/0)
+MMP (cpt_rgs): locals=0, allc_sz=0.00 MB (0.00 MB), used_sz=0.00 MB, blk_sz=(0.00 MB/0.00 MB), blks-min-max=0/0 (big 0/0)
+MMP (slv_rgs): locals=0, allc_sz=0.00 MB (0.00 MB), used_sz=0.00 MB, blk_sz=(0.00 MB/0.00 MB), blks-min-max=0/0 (big 0/0)
+MMP (msh): locals=14, allc_sz=59.07 MB (0.00 MB), used_sz=41.39 MB, blk_sz=(0.13 MB/21.17 MB), blks-min-max=3/25 (big 0/0)
+MMP (brx): locals=0, allc_sz=0.00 MB (0.00 MB), used_sz=0.00 MB, blk_sz=(0.00 MB/0.00 MB), blks-min-max=0/0 (big 0/0)
+MMP (bcf): locals=14, allc_sz=175.49 MB (0.00 MB), used_sz=139.17 MB, blk_sz=(0.15 MB/19.22 MB), blks-min-max=24/42 (big 0/0)
+MMP (xsl): locals=0, allc_sz=0.00 MB (0.00 MB), used_sz=0.00 MB, blk_sz=(0.00 MB/0.00 MB), blks-min-max=0/0 (big 0/0)
+MESH::Bricks: Total=361477
+
+-----------------------------------------------------------------------
+Mesh dimensions:
+				I[0 ]=64
+				I[1 ]=89
+				I[2 ]=64
+Solver refinement level	I[47]=0
+
+Comp. domain size:
+				a[0  ]=-0.899031
+				a[1  ]=1.06157
+				a[2  ]=-1.39736
+				a[3  ]=1.09104
+				a[4  ]=-0.826648
+				a[5  ]=1.13195
+Wall thickness		a[231]=0
+Gap size			a[232]=1
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+Preparing for calculations started at	12.8.2025	13:49:18
+CD X0= -0.89903076024, X1= 1.06156923976, Y0= -1.39736061273, Y1= 1.09103938727, Z0= -0.826647898858, Z1= 1.13195210114
+Update time step in solids: STATIONARY IN SOLIDS
+FLUID SUBDOMAIN   0 LC =0 LAMTURB=-1 NONNEWTON=0  STEAM=0  CAVITATION=0 IT=6 NT=0 NC=1 U_DIM_EXT=14
+
+===ThermodynamicsHolder:===
+Subdom 0 Perfect gas thermodynamics
+	substance 0 type=fwGas, guid=2B966F4A9A9F11D4A50048A0E8000000, name=Air
+===ThermodynamicsHolder:===
+106 parameter(s) in list of scalar parameters
+7 parameter(s) in list of vector parameters
+-----------------------------------------------------------------------
+Loading mesh settings (global/local/SAR)...
+Setting regions (361477 / 361477)...OK (0.007 s)
+Max SAR level = 0
+-----------------------------------------------------------------------
+
+CollectIndata: Initialize stored in U[] parameters (pressure,momentum,dens,..)... OK(CPU=0.117 s)
+
+THERMODYNAMICS: Initialize stored in U[] parameters (T,Cp,Pr,..)
+                and switch to Y-shifted Total Enthalpy:
+OK: U[] is initialized.
+
+Collect Virtual Surface Sources...OK
+Collect Surface Goals...
+Received 2 wall face(s) and 0 virtual face(s)...
+ OK
+Total CPU time 3 s
+Collect Unused surface area...OK
+
+MWS =0
+
+There is 1 subdomain in fluid:
+NPROC = 14, nested_parallelization = 0
+NPART = 14
+
+/-----------------------------------------------------------/
+SOLVER TOPOLOGY DATA:
+
+BRICKS: |level1| sum         1052
+
+CV:     Total               361231
+CV:     Fluid               361231
+CV:     Solid               0
+
+Fluid:
+CV Max Disbalance(Const):                6.58378e-09 (ncv=239395)
+CV Max Disbalance(Linear):                1.74468e-08 (ncv=211052, nsd=0)
+CV:     G.Fluid Thin Profile    0.00 % (9)
+CV:     G.Solid Thin Profile    0.00 % (0)
+
+CV:     G.Fluid Non-Convex      0.13 % (475)
+CV:     G.Solid Non-Convex      0.00 % (0)
+
+FACE_A: Fluid          (af) 1068392
+FACE_A: Max number placed on a brick-face in cv: 4
+FACE_A: Solid          (as) 3704
+
+FACE_W: Total               32881
+FACE_W: Fluid/Fluid    (ff) 0
+FACE_W: Max number placed in cv: 28
+/-----------------------------------------------------------/
+
+Create solver core
+MDS: Converting solver problem ...
+MDS: Converting takes 0.103 s
+slv : Calculations at run start
+slv : Create sub-domains supervisors:
+slv : 	Fluid subdom 0(EXS) gsd_ind=0
+slv : 	1 fluid
+slv : Create sub-domains mesh connectivity supervisors:
+slv : Collect slices by phenomena...
+slv : 	fluid flow slices were created:	1
+slv : 	heat transfer slices were created:	1
+slv : 	electric current flow slices were created:	0
+slv : 	radiation slices were created:	0
+slv : Creating meshes proxies for multigrid...
+slv : Convert MESH[0] to multigrid mesh proxy...
+slv : 361477 bricks are accounted by implicit methods(100% of total)
+slv : max tree bricks count = 8
+alg : MG: create topological coarsening...
+alg : Mesh 0  OK
+slv : Building views for fluid flow...
+slv : 1 views are created
+slv : Building views for heat transfer...
+slv : 1 views are created
+slv : Building fluid flow views schemes...
+slv : Building heat transfer views schemes...
+slv : PrecalcAtStart views for fluid flow...
+== precalculation at run start at fluid subdom 0
+BC re-definition: Real Wall to Ideal Wall: 0 w-faces
+frw count=2161
+
+MARK CVs, A-FACEs and W-FACEs WITH/NEAR GEOMETRICAL PECULIARITIES:
+
+  FW_VERY_SMALL_AREA: very small areas detected in 62 FWs (0.188559% of all FWs, 0.188559% of FWs that are not skipped in area calculations).
+  Thin slit and wedge cvs = 52 (0.0143952% of all cvs, 0.167888% of partial cvs),
+  Wedge cvs = 209 (0.0578577% of all cvs, 0.674781% of partial cvs),
+  (THRESHOLD_THIN = 0.01, THRESHOLD_ANGLE = 91.146).
+  A-faces degraded to CUp_1st and Upwind_1st: 1034 (0.0967818% of all a-faces)
+    (by  curved & encumbered : 1034 (0.0967818% of all a-faces)),
+    (by  l- or r-cv is small : 0 (0% of all a-faces)),
+    (by  l- or r-cv is triple: 0 (0% of all a-faces)),
+    (by  l- or r-cv is bad boundary refinement: 0 (0% of all a-faces)).
+    (THRESHOLD_ENCUMBERED_AREA = 0.333, THRESHOLD_ANGLE_SURFACE = 15, THRESHOLD_ANGLE_CVs = 70).
+  Skip turbulence generating sources in partial cvs = 337 (0.0932921% of all cvs, 1.08804% of partial cvs),    (by  presence of degraded to CUp_1st a-faces)
+== precalculation ok
+slv : PrecalcAtStart views for fluid flow takes 0.079 s
+slv : PrecalcAtStart views for heat transfer...
+Creating view scheme...
+0 heat transfer algebraic views are created
+slv : PrecalcAtStart views for electric current flow...
+slv : PrecalcAtStart views for radiation...
+Calculate gap size: 
+	Min gap size       1.498381e-03 (id=1374)
+	Max gap size       1.329957e+00 (id=1112)
+	Enlarged by r_d_cv 229
+GapSize time = 0.041140 s
+slv : Finite volume method GLOBAL MESH METRICS:
+slv : eps_const_function  [cv] = MAX_{i}{ SUM( S[f] * n[f][i] ) / SUM( |S[f] * n[f][i]| ) },
+slv : eps_linear_function [cv] = | MAX_{i}{ SUM( S[f] * n[f][i] * crd[f][i] ) } - MIN_{i}{ SUM( S[f] * n[f][i] * crd[f][i] ) } | / V[cv],
+slv : eps_cv_volume       [cv] = | SUM_{i}{ SUM( S[f] * n[f][i] * crd[f][i] ) } / 3 - V[cv] | / V[cv],
+slv :                            where "i" is axis (x, y, z) and "f" is cv's face (of any type),
+slv :                            crd[f] is coordinate of face "f" in cv-centered coordinate system, i.e. shifted by -crd[cv].
+slv : 	FLUID:
+slv : 		    1 GEOMSUBDOM(s):   Ncv =     361231, eps_const_function = 2.1e-08, eps_linear_function = 1.7e-08, eps_cv_volume = 1.1e-08.
+slv : 	SOLID:
+slv : 		    1 GEOMSUBDOM(s):   Ncv =       1365, eps_const_function = 5.2e-08, eps_linear_function = 4.6e-08, eps_cv_volume = 3.0e-08.
+slv : ------------ Start of Preliminary step at Calculation start ------------
+alg : 
+alg :  size = 361231
+alg :  assembling_nnz_PardisoLU        0.026  1
+alg :  assembling_portrait_PardisoLU   0.019  1
+alg :  build_coarse_select_omega       0.001  1
+alg :  build_coarse_task_lists         0.001  1
+alg :  build_fine_select_omega         0.007  1
+alg :  build_fine_task_lists           0.012  1
+alg :  build_select_pivot_nonzeros     0.012  1
+alg :  build_select_vectors            0.013  1
+alg :  calc_residual_LU                0.097  151
+alg :  call_MG_solver                  2.472  1
+alg :  clean_coarse_levels             0.000  1
+alg :  clean_fine_level                0.000  1
+alg :  init_coarse_EMT_solver          0.000  1
+alg :  init_coarse_levels              0.582  1
+alg :  init_coarse_task_lists          0.000  1
+alg :  init_fine_EMT_solver            0.000  1
+alg :  init_fine_level                 0.034  1
+alg :  init_fine_task_lists            0.000  1
+alg :  mg_cycle                        2.345  3
+alg :  numerical_PardisoLU             0.289  1
+alg :  perform_prolongation            0.027  116
+alg :  perform_restriction             0.025  116
+alg :  prepare_MG                      0.034  1
+alg :  run_smoothing                   1.581  150
+alg :  smoother_coarse                 0.633  1773
+alg :  smoother_fine                   0.876  696
+alg :  solve_MG                        2.472  1
+alg :  solve_PardisoLU                 0.196  87
+alg :  symbolic_PardisoLU              0.215  1
+alg :  update_mg_status                0.003  235
+
+mgl    rows  nonzeros  avg  memory(Mb)
+ 31  361231   2136760    6       87.43
+ 30   45228    354059    8       12.21
+ 29    5694     43632    8        1.44
+WALL_DISTANCE: 1 algebraic views are created 
++------+--------+--------------+--------------+--------------+--------------+--------------+------+----+-+-+--+------+
+|Name  |alg view| Initial res  | Initial resL1| Target res   | Final res    | Final res L1 |Visits|Iter|R|F|CL|Status|
+|  WD  |       0|  3.856530e-04|  0.000000e+00|  3.856530e-20|  1.244979e-19|  1.430953e-07|    32| 696|2|n|29|  BAD |
+slv : min max in fluid subdom 0
+slv :    u:           min(0)=600                  , max(0)=600                  
+slv :    rho:         min(0)=1.2037056240893      , max(0)=1.2037056240893      
+slv :    p:           min(0)=101325               , max(0)=101325               
+slv :    e:           min(0)=5.3832957499028e-316 , max(1)=0.024059038539354    
+slv :    T:           min(0)=293.2                , max(0)=293.2                
+slv :    Mach:        min(0)=1.7484138246235      , max(0)=1.7484138246235      
+slv :    Y_term[0]:   min(0)=1                    , max(0)=1                    
+slv : ------------ End of Preliminary step at Calculation start ------------
+Collecting Reference Parameters... OK
+
+----------------------------------------------------------
+BCF checking (solver)...
+----------------------------------------------------------
+
+Estimated cfld size=57.67 Mb
+Writing cfld file "Z:\Developer\MIT_Rkt_Team\Githubs\MIT_Rkt_Zephyrus_Aero\CFD\sldwrks\08.12.2025\39\Parametric Study 1\1\cfl36C8.tmp"...
+Write section 433 takes 0.123 s
+Write section 404 takes 0.003 s
+store res: FILE SAVED: cfl36C8.tmp. Total save cfld took 0.21 sec.
+real cfld size=0.98 Mb
+CPT size=3.630 MB (3806124 bytes).
+CPT size=3.630 MB (3806124 bytes)
+CCFLDFileManager::MergeCFLDToCPT: FILE COPIED : "Z:\Developer\MIT_Rkt_Team\Githubs\MIT_Rkt_Zephyrus_Aero\CFD\sldwrks\08.12.2025\39\Parametric Study 1\1\1.cpt" -> "Z:\Developer\MIT_Rkt_Team\Githubs\MIT_Rkt_Zephyrus_Aero\CFD\sldwrks\08.12.2025\39\Parametric Study 1\1\1.cpt.lock"
+CCFLDFileManager::MergeCFLDToCPT: FILE MERGED : "Z:\Developer\MIT_Rkt_Team\Githubs\MIT_Rkt_Zephyrus_Aero\CFD\sldwrks\08.12.2025\39\Parametric Study 1\1\cfl36C8.tmp" -> "Z:\Developer\MIT_Rkt_Team\Githubs\MIT_Rkt_Zephyrus_Aero\CFD\sldwrks\08.12.2025\39\Parametric Study 1\1\1.cpt.lock"
+CCFLDFileManager::MergeCFLDToCPT: FILE RENAMED: "Z:\Developer\MIT_Rkt_Team\Githubs\MIT_Rkt_Zephyrus_Aero\CFD\sldwrks\08.12.2025\39\Parametric Study 1\1\1.cpt.lock" -> "Z:\Developer\MIT_Rkt_Team\Githubs\MIT_Rkt_Zephyrus_Aero\CFD\sldwrks\08.12.2025\39\Parametric Study 1\1\1.cpt"
+CPT size=4.601 MB (4824460 bytes)
+CCFLDFileManager::MergeCFLDToCPT: FILE REMOVED: "Z:\Developer\MIT_Rkt_Team\Githubs\MIT_Rkt_Zephyrus_Aero\CFD\sldwrks\08.12.2025\39\Parametric Study 1\1\cfl36C8.tmp"
+OK
+Estimated fld size=35.03 Mb
+Writing fld file "Z:\Developer\MIT_Rkt_Team\Githubs\MIT_Rkt_Zephyrus_Aero\CFD\sldwrks\08.12.2025\39\Parametric Study 1\1\r_000000.fld"...
+**************   CHeatPathCalculator report ******************
+Total Enthalpy Rate
+	domain 0 (External: 0; Inner: 0)
+Temperatures
+	0 (Vol 9.55305; Tmin 293.2; Tav 293.2; Tmax 293.2)
+Total Energy Balance [W]
+	0
+**************   CHeatPathCalculator report end******************
+store res: FILE SAVED: r_000000.fld. Total save fld took 1.86 sec.
+real fld size=11.07 Mb
+CPT size=4.601 MB (4824460 bytes).
+OK
+Init simple interpolator... OK (0.212 sec)
+Surface goal 'SG Normal Force 1' is on 11 faces
+Surface goal 'SG Torque (X) 2' is on 11 faces
+Surface goal 'SG Torque (Y) 3' is on 11 faces
+Surface goal 'SG Torque (Z) 4' is on 11 faces
+
+Preview parameters:
+	Density (Fluid)
+	Pressure
+	Temperature
+	Temperature (Fluid)
+	Velocity
+	Velocity (X)
+	Velocity (Y)
+	Velocity (Z)
+	Mach Number
+	Dynamic Pressure
+	Total Pressure
+	Dynamic Viscosity
+	Prandtl Number
+	Sonic Speed
+	Specific Heat (Cp)
+	Stagnation Density
+	Absolute Total Enthalpy
+	Total Temperature
+	Volumetric Heat Generation Rate
+19 parameter(s) in preview list of parameters
+
+Calculation started at	12.8.2025	13:49:28
+Total CPU time 10 s
+Pre-calculation takes 11.807 s
+
+================== Tstep=0 ===================
+Boundary layer settings:
+	Separation tau    on
+	Enable 3D effects on
+BL MODEL         	0
+	Ignore compressibility  off
+	BL on porous body  off
+	Separ. tau corr factor 0
+	Separ. tau kappa 0.1
+	Separ. tau KV0 0.1
+	Max hn for engineering models 7
+	Laminar Temperature Profile Order 4
+	Max Film Thickness 0
+------------------------
+NumCore Turbulent Model settings:
+	Min typical size					1
+	Zero vel ht factor				0.006
+	C_mju_turb_min                   0.01
+	Threshold value for K-E filter   0.0212185
+	C_mju                            0.09
+	C_eps1                           1.44
+	C_eps2                           1.92
+	Sigma_k                          1
+	Sigma_eps                        1.3
+	Sigma_c                          0.9
+	Approx mode                      2nd order
+-------------
+NumCoreFESSettings:
+	Maximum possible Mach	0
+	Turbulent Prandtl		0.9
+-------------
+slv : Implicit schemes in fluid settings:
+slv : INPR	: rel_resid=0.00790569
+slv : BACKGROUND	: rel_resid=0.00790569
+slv : DVGR	: rel_resid=0.00790569
+slv : MOMENTUM	: rel_resid=0.00790569
+slv : CHT	: rel_resid=0.00790569
+slv : Y_TD	: rel_resid=0.00790569
+slv : Y_TURB	: rel_resid=0.00790569
+slv : LMA	: rel_resid=0.00790569
+slv : UVGI	: rel_resid=0.00790569
+slv : NOx	: rel_resid=0.00790569
+slv : VOL_FRAC_IM_PHASE	: rel_resid=0.00790569
+slv : (null)	: rel_resid=0.00790569
+slv : Disable wall motion impact into H threshold=10
+slv : Relax par ring =0.05
+slv : Isothermal cavitation CF corrector = 1
+slv : Isothermal cavitation pseudo transient corrector = -1
+slv : Isothermal cavitation forced time step in cavitated regions = -1
+slv : force_free_surface_VOF = -1
+slv : SLV_SINGLE_P_WALL = 1
+slv : Weighted 2-Point 2nd order experimental features = 0
+slv : Stationary with Outer Iterations for Non-Newton:
+slv :     forced_global_timestep = -1.79769e+308
+slv :     timestep_accel_initial_coeff = 0.01
+slv :     timestep_accel_base = 1
+slv :     timestep_accel_max_coeff = 50
+slv :     timestep_accel_steps_divider = 1
+slv : ---------------------------------------
+------Solid settings---
+Approximation mode = 2'nd order && thin_profiles && weighted_2p_2nd (selectively)
+Solid temperature eps_abs scaling factor: 0.001
+number dofs per absorptive face: 9
+subgrid ratio: 0.500000
+------------------------------
+slv : Iterations settings:
+slv : Max number of outer iter = 1
+slv : Max number of Mass&Energy iter = 1
+slv : Conservation laws tolerance residuals:
+slv : 	MASS	0.005
+slv : 	MOMENTUM	0.005
+slv : 	ENERGY	0.005
+slv : 	SPECIES	0.005
+slv : 	TURBULENCE	0.005
+slv : 	MASS_AFTER_CALC_RHO	0.005
+slv : ---------------------------------------
+slv : Scheme blocks settings:
+slv : INPR	: stop_crit=residAbs_AND_residRel 
+slv : BACKGROUND	: stop_crit=residAbs_AND_residRel 
+slv : DVGR	: stop_crit=residAbs_AND_residRel 
+slv : MOMENTUM	: stop_crit=residAbs_AND_residRel 
+slv : CHT	: stop_crit=residAbs_AND_residRel 
+slv : Y_TD	: stop_crit=residAbs_AND_residRel 
+slv : Y_TURB	: stop_crit=residAbs_AND_residRel 
+slv : LMA	: stop_crit=residAbs_AND_residRel 
+slv : UVGI	: stop_crit=residAbs_AND_residRel 
+slv : NOx	: stop_crit=residAbs_AND_residRel 
+slv : VOL_FRAC_IM_PHASE	: stop_crit=residAbs_AND_residRel 
+slv : (null)	: stop_crit=residAbs_AND_residRel 
+slv : ---------------------------------------
+slv : Big local tau flattener = disabled
+Accuracy scale coeff =1
+Finishing with saving fld. Please wait...
+slv : SolveBL stage
+|nsd|Real WF|NormalF|Cycle F|CriticF| EdgeF |CyclBrF|ExtParF|RWFnumSt|StLvlNum|  nfw  |  alp_U_min  |  nfw  |  alp_U_max  |  nfw  |  alp_T_min  |  nfw  |  alp_T_max  |  nfw  |  BL_s_min   |  nfw  |   BL_s_max  |
+|  0|   2161|   1701|      0|     25|    435|      0|      0|    2161|      24|   8193|0            |  20403|54.322       |   8192|0.000154938  |   8192|0.000154938  |   8192|0            |   8192|0            |
+slv : min max in fluid subdom 0
+slv :    u:           min(98554)=467.81706843547      , max(0)=600                  
+slv :    rho:         min(238228)=1.0862082677515      , max(98554)=1.4231922327683      
+slv :    p:           min(97236)=91192.831544015      , max(98552)=167248.18682307      
+slv :    e:           min(0)=5.3832957499028e-316 , max(238228)=0.026661553644725    
+slv :    T:           min(97236)=289.45688381428      , max(98552)=409.32238555129      
+slv :    Mach:        min(98554)=1.1537674412498      , max(238311)=1.7509480589611      
+slv :    Y_term[0]:   min(0)=1                    , max(0)=1                    
+slv : +----------------------------+------------+-------+------------+------------+
+slv : |       Collector name       | Total Time | Count |  Avg Time  |  Max Time  |
+slv : +----------------------------+------------+-------+------------+------------+
+slv : | CalcAfterCHT_MDS           |       0.484|      1|       0.484|       0.484|
+slv : | Calculate_inc              |       0.000|      0|       0.000|       0.000|
+slv : | CollectEMT_Results         |       0.000|      1|       0.000|       0.000|
+slv : | HeatPathCalculator_Dynamic |       0.173|      1|       0.173|       0.173|
+slv : | LiSy_make_portrait         |       0.042|      2|       0.021|       0.022|
+slv : | build_sl_ordering_CHT      |       0.000|      1|       0.000|       0.000|
+slv : | calc_Convolutions_MDS      |       0.037|      1|       0.037|       0.037|
+slv : | calc_wall_dist             |       3.283|      1|       3.283|       3.283|
+slv : | perform_stage_total        |       4.262|      8|       0.533|       3.283|
+slv : | precalc_at_start_MDS       |       0.084|      2|       0.042|       0.075|
+slv : | solve_BL_MDS               |       0.413|      1|       0.413|       0.413|
+slv : | solve_CHT                  |       0.008|      1|       0.008|       0.008|
+slv : | solve_CHT_MDS              |       0.000|      1|       0.000|       0.000|
+slv : | update_BC_MDS              |       0.013|      3|       0.004|       0.013|
+slv : +----------------------------+------------+-------+------------+------------+
+-----------------------------------------------------------------------
+Memory Working Set Current = 701.80 Mb, Memory Working Set Peak = 701.80 Mb
+Memory Private Bytes Current = 803.39 Mb, Memory Private Bytes Peak = 803.39 Mb
+Process Threads Number: 35
+-----------------------------------------------------------------------
+/************Goal values******************/
+GG Force 1				615.250423 N
+GG Force (X) 2				5.66728127 N
+GG Force (Y) 3				-615.218213 N
+GG Force (Z) 4				2.74135263 N
+SG Normal Force 1				22.1089235 N
+SG Torque (X) 2				1.46122563 N*m
+SG Torque (Y) 3				-4.16390058 N*m
+SG Torque (Z) 4				-0.889376169 N*m
+/************End of Goal values******************/
+/************	Min/Max Parameters	************/
+Density (Fluid):		min = 1.08620827 kg/m^3		max = 1.42319223 kg/m^3
+Pressure:		min = 91192.8315 Pa		max = 167248.187 Pa
+Temperature (Fluid):		min = 289.456884 K		max = 472.012445 K
+Velocity:		min = 0 m/s		max = 600 m/s
+Velocity (X):		min = -33.993458 m/s		max = 34.0683375 m/s
+Velocity (Y):		min = -600 m/s		max = 0 m/s
+Velocity (Z):		min = -31.4333352 m/s		max = 29.6168198 m/s
+Mach Number:		min = 0		max = 1.75094806
+/************	End of Min/Max Parameters	************/
+ENDING PROGRAM...
+Estimated fld size=35.03 Mb
+Writing fld file "Z:\Developer\MIT_Rkt_Team\Githubs\MIT_Rkt_Zephyrus_Aero\CFD\sldwrks\08.12.2025\39\Parametric Study 1\1\fld4783.tmp"...
+**************   CHeatPathCalculator report ******************
+Total Enthalpy Rate
+	domain 0 (External: 8.04663e-07; Inner: 0)
+Temperatures
+	0 (Vol 9.55305; Tmin 289.457; Tav 293.202; Tmax 472.012)
+Total Energy Balance [W]
+	8.04663e-07
+**************   CHeatPathCalculator report end******************
+store res: FILE RENAMED: "Z:\Developer\MIT_Rkt_Team\Githubs\MIT_Rkt_Zephyrus_Aero\CFD\sldwrks\08.12.2025\39\Parametric Study 1\1\fld4783.tmp" -> "Z:\Developer\MIT_Rkt_Team\Githubs\MIT_Rkt_Zephyrus_Aero\CFD\sldwrks\08.12.2025\39\Parametric Study 1\1\1.fld"
+store res: FILE SAVED: 1.fld. Total save fld took 1.60 sec.
+real fld size=11.45 Mb
+CPT size=4.601 MB (4824460 bytes).
+OK
+Depository creating ...
+nb_bricks (0.000 s)
+Face_aver_on (0.000 s)
+FS faces count 157 
+FS triangles count 8921 
+wall_triangles (0.819 s)
+size of cv_intrp_f = 28.28 Mb
+size of cv_intrp_s = 0.00 Mb
+size of cv_intrp_frw = 0.00 Mb
+CCVInterp_DepEntry::Calculate duration = 0.944 s
+cv_interp (2.454 s)
+favorite_params (0.672 s)
+Face_aver_off (0.000 s)
+Depository creating ...OK (3.138 s)
+Solver finished at	12.8.2025	13:49:35
+Total CPU time 17 s
+Calculation takes 6.422 s
+Free memory:
+slv : +----------------------------+------------+-------+------------+------------+
+slv : |       Collector name       | Total Time | Count |  Avg Time  |  Max Time  |
+slv : +----------------------------+------------+-------+------------+------------+
+slv : | CalcAfterCHT_MDS           |       0.484|      1|       0.484|       0.484|
+slv : | Calculate_inc              |       1.082|      1|       1.082|       1.082|
+slv : | CollectEMT_Results         |       0.000|      2|       0.000|       0.000|
+slv : | HeatPathCalculator_Dynamic |       0.244|      2|       0.122|       0.173|
+slv : | LiSy_make_portrait         |       0.042|      2|       0.021|       0.022|
+slv : | Results_processing         |       0.221|      1|       0.221|       0.221|
+slv : | build_sl_ordering_CHT      |       0.000|      1|       0.000|       0.000|
+slv : | calc_Convolutions_MDS      |       0.037|      1|       0.037|       0.037|
+slv : | calc_wall_dist             |       3.283|      1|       3.283|       3.283|
+slv : | perform_stage_total        |       4.262|      8|       0.533|       3.283|
+slv : | precalc_at_start_MDS       |       0.084|      2|       0.042|       0.075|
+slv : | solve_BL_MDS               |       0.413|      1|       0.413|       0.413|
+slv : | solve_CHT                  |       0.008|      1|       0.008|       0.008|
+slv : | solve_CHT_MDS              |       0.000|      1|       0.000|       0.000|
+slv : | update_BC_MDS              |       0.013|      3|       0.004|       0.013|
+slv : +----------------------------+------------+-------+------------+------------+
+Finishing with saving fld. Please wait...
+-----------------------------------------------------------------------
+Start to free mesher data...
+MMP (gbs): locals=0, allc_sz=0.00 MB (0.00 MB), used_sz=0.00 MB, blk_sz=(0.00 MB/0.00 MB), blks-min-max=0/0 (big 0/0)
+MMP (cpt_rgs): locals=0, allc_sz=0.00 MB (0.00 MB), used_sz=0.00 MB, blk_sz=(0.00 MB/0.00 MB), blks-min-max=0/0 (big 0/0)
+MMP (slv_rgs): locals=0, allc_sz=0.00 MB (0.00 MB), used_sz=0.00 MB, blk_sz=(0.00 MB/0.00 MB), blks-min-max=0/0 (big 0/0)
+MMP (msh): locals=14, allc_sz=59.07 MB (0.00 MB), used_sz=41.39 MB, blk_sz=(0.13 MB/21.17 MB), blks-min-max=3/25 (big 0/0)
+MMP (brx): locals=0, allc_sz=0.00 MB (0.00 MB), used_sz=0.00 MB, blk_sz=(0.00 MB/0.00 MB), blks-min-max=0/0 (big 0/0)
+MMP (bcf): locals=14, allc_sz=175.49 MB (0.00 MB), used_sz=139.17 MB, blk_sz=(0.15 MB/19.22 MB), blks-min-max=24/42 (big 0/0)
+MMP (xsl): locals=0, allc_sz=0.00 MB (0.00 MB), used_sz=0.00 MB, blk_sz=(0.00 MB/0.00 MB), blks-min-max=0/0 (big 0/0)
+Free xsl...            OK	Time=0.002 s
+Free ray collector...  OK	Time=0.001 s
+Free ray intersector...OK	Time=0.001 s
+Free body sets...      OK	Time=0.001 s
+Free Geometry DB takes 0.000 s
+Free mesh conn...      OK	Time=0.000 s
+Free geomsd...         OK	Time=0.003 s
+Free mbricks...        OK	Time=0.001 s
+Free hash info...      OK	Time=0.001 s
+Free bricks-x...       OK	Time=0.001 s
+Free bcf...            OK	Time=0.023 s
+Free mesh h...         OK	Time=0.000 s
+Free bricks arr..      OK	Time=0.000 s
+Free bricks tree...    OK	Time=0.000 s
+Free mesh pools...     OK	Time=0.031 s
+Free bodies mapper...  OK	Time=0.001 s
+Free geom crits...     OK	Time=0.000 s
+Free cpt regions...    OK	Time=0.000 s
+Free peculiar surfs... OK	Time=0.000 s
+Free sw-geometries...  OK	Time=0.000 s
+Free mesher wrk data...OK	Time=0.000 s
+Total free mesher data time: 0.080 s
+-----------------------------------------------------------------------
+Free memory: OK (0.141 s)
+-----------------------------------------------------------------------
+Memory Working Set Current = 526.43 Mb, Memory Working Set Peak = 942.35 Mb
+Memory Private Bytes Current = 540.50 Mb, Memory Private Bytes Peak = 1049.27 Mb
+Process Threads Number: 35
+Process Threads Number Peak: 35
+-----------------------------------------------------------------------
+Free memory:
+-----------------------------------------------------------------------
+Start to free mesher data...
+MMP (gbs): locals=0, allc_sz=0.00 MB (0.00 MB), used_sz=0.00 MB, blk_sz=(0.00 MB/0.00 MB), blks-min-max=0/0 (big 0/0)
+MMP (cpt_rgs): locals=0, allc_sz=0.00 MB (0.00 MB), used_sz=0.00 MB, blk_sz=(0.00 MB/0.00 MB), blks-min-max=0/0 (big 0/0)
+MMP (slv_rgs): locals=0, allc_sz=0.00 MB (0.00 MB), used_sz=0.00 MB, blk_sz=(0.00 MB/0.00 MB), blks-min-max=0/0 (big 0/0)
+MMP (msh): locals=0, allc_sz=0.00 MB (0.00 MB), used_sz=0.00 MB, blk_sz=(0.00 MB/0.00 MB), blks-min-max=0/0 (big 0/0)
+MMP (brx): locals=0, allc_sz=0.00 MB (0.00 MB), used_sz=0.00 MB, blk_sz=(0.00 MB/0.00 MB), blks-min-max=0/0 (big 0/0)
+MMP (bcf): locals=0, allc_sz=0.00 MB (0.00 MB), used_sz=0.00 MB, blk_sz=(0.00 MB/0.00 MB), blks-min-max=0/0 (big 0/0)
+MMP (xsl): locals=0, allc_sz=0.00 MB (0.00 MB), used_sz=0.00 MB, blk_sz=(0.00 MB/0.00 MB), blks-min-max=0/0 (big 0/0)
+Free xsl...            OK	Time=0.000 s
+Free ray collector...  OK	Time=0.000 s
+Free ray intersector...OK	Time=0.000 s
+Free body sets...      OK	Time=0.000 s
+Free Geometry DB takes 0.000 s
+Free mesh conn...      OK	Time=0.000 s
+Free geomsd...         OK	Time=0.000 s
+Free mbricks...        OK	Time=0.000 s
+Free hash info...      OK	Time=0.000 s
+Free bricks-x...       OK	Time=0.000 s
+Free mesh h...         OK	Time=0.000 s
+Free bricks arr..      OK	Time=0.000 s
+Free bricks tree...    OK	Time=0.000 s
+Free mesh pools...     OK	Time=0.000 s
+Free bodies mapper...  OK	Time=0.000 s
+Free geom crits...     OK	Time=0.000 s
+Free cpt regions...    OK	Time=0.000 s
+Free peculiar surfs... OK	Time=0.000 s
+Free sw-geometries...  OK	Time=0.000 s
+Free mesher wrk data...OK	Time=0.000 s
+Total free mesher data time: 0.006 s
+-----------------------------------------------------------------------
+Free memory: OK (0.016 s)
+-----------------------------------------------------------------------
+Memory Working Set Current = 526.44 Mb, Memory Working Set Peak = 942.35 Mb
+Memory Private Bytes Current = 541.53 Mb, Memory Private Bytes Peak = 1049.27 Mb
+Process Threads Number: 35
+Process Threads Number Peak: 35
+-----------------------------------------------------------------------
+Algebra Pool      : mem_usage = 360.44 Mb, allocated count = 0
+Solver finished in 18.403 seconds
+finished solver summary thread
+Log ended at 12.08.2025	13:49:35

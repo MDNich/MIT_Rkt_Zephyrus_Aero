@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings product="FLOEFD" version ="1">
+<Criteria index="0">
+</Criteria>
+<Globals index="0">
+<MaxSolvers value="2"/>
+<StudyMode value="0"/>
+<Units value="jAMAAJ0AAAAAAAAAIAMAACwBAABkAAAAeAUAAKQGAAA0CAAATAQAAGwHAADECQAAAAAAAIQDAADoAwAACAcAALAEAAD1AQAAkAEAANwFAADQBwAAvAIAABQFAABABgAAWAIAAJgIAABgCQAA/AgAAMgAAAAoCgAAjAoAAFgCAAAQJwAA8AoAAFQLAAC4CwAASA0AAKwNAAAQDgAAdA4AANgOAAA8DwAAoA8AAAQQAAARJwAAzBAAADARAACUEQAA+BEAAFwSAAAAAAAAAAAAAAAAAADAEgAAJBMAAIgTAADsEwAAUBQAALQUAAAYFQAAAAAAAAAAAAAAAAAAAAAAAAwXAABwFwAA1BcAADgYAACcGAAAABkAAGYZAADIGQAALRoAAJAaAAAgHAAAEScAABAnAABMHQAAsB0AABQeAAB4HgAA3B4AAEAfAACkHwAACCAAAGwgAADQIAAANCEAAJghAAD8IQAAYSIAAMQiAAAoIwAAjCMAAPAjAABUJAAAuCQAABwlAACAJQAA5CUAAEgmAACsJgAAAAAAAHQnAADZJwAAPSgAAKAoAAAFKQAAaSkAAM0pAAAxKgAAlCoAAPgqAABcKwAAwCsAACQsAACILAAA7CwAAFAtAAC0LQAAGC4AAHwuAADgLgAARC8AAKgvAAAMMAAAcDAAANQwAAA4MQAAnTEAAAEyAABkMgAAyTIAACwzAACQMwAA9DMAAFg0AAC+NAAAIDUAAIQ1AADoNQAATDYAALA2AAAUNwAAfTcAAN83AABAOAAApDgAAAg5AABsOQAA0DkAADQ6AACYOgAA/DoAAGA7AADEOwAAKDwAAIw8AADwPAAAnQAAAAAAAAACAAAAAwAAAAQAAAACAAAABAAAAAMAAAADAAAAAwAAAAcAAAADAAAAAwAAAAQAAAAEAAAAAgAAAAEAAAAGAAAAAQAAAAMAAAADAAAAAgAAAAQAAAADAAAAAgAAAAMAAAADAAAABgAAAAUAAAADAAAAAAAAAAIAAAADAAAABAAAAAIAAAADAAAABAAAAAQAAAAEAAAAAwAAAAMAAAADAAAAAwAAAAAAAAABAAAAAgAAAAIAAAACAAAAAwAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAMAAAADAAAABAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAMAAAAEAAAABAAAAAQAAAACAAAAAgAAAAIAAAAAAAAAAQAAAAAAAAADAAAAAAAAAAIAAAABAAAAAQAAAAEAAAACAAAAAgAAAAEAAAABAAAAAwAAAAMAAAADAAAAAwAAAAAAAAACAAAAAQAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAgAAAAIAAAACAAAAAgAAAAIAAAAAAAAAAgAAAAMAAAAEAAAABgAAAAIAAAAEAAAABAAAAAQAAAACAAAAAgAAAAIAAAACAAAAAgAAAAMAAAAFAAAABQAAAAIAAAAHAAAABwAAAAMAAAAEAAAABAAAAAIAAAAAAAAAAwAAAAUAAAAEAAAABAAAAAcAAAADAAAAAwAAAAQAAAADAAAAAwAAAAMAAAABAAAAAgAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAACdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAnQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="/>
+<Computer index="0">
+<CPUs value="14"/>
+<CPUsLimit value="14"/>
+<Memory value="112"/>
+<Name value="This computer"/>
+<Port value="30950"/>
+<RunMode value="0"/>
+</Computer>
+<ResponseSurface index="0">
+<CqmFile value=""/>
+<NetHeatFlowRsm value=""/>
+</ResponseSurface>
+<Rsm index="0">
+</Rsm>
+</Globals>
+<Goals index="0">
+<Goal index="0">
+<Context value="0"/>
+<Name value="GG Force 1"/>
+<UUID value="7e02da01-45ad-49fd-9f26-d7ac9c95f88e"/>
+<Units value="7"/>
+</Goal>
+<Goal index="1">
+<Context value="0"/>
+<Name value="GG Force (X) 2"/>
+<UUID value="fdd8b82e-95d7-4a31-a726-41845d08338d"/>
+<Units value="7"/>
+</Goal>
+<Goal index="2">
+<Context value="0"/>
+<Name value="GG Force (Y) 3"/>
+<UUID value="02882e0a-d59e-43ab-ab73-42c19ba227d6"/>
+<Units value="7"/>
+</Goal>
+<Goal index="3">
+<Context value="0"/>
+<Name value="GG Force (Z) 4"/>
+<UUID value="fc106065-d863-4c31-842e-e9a8b42e5b30"/>
+<Units value="7"/>
+</Goal>
+<Goal index="4">
+<Context value="0"/>
+<Name value="SG Normal Force 1"/>
+<UUID value="bf81cb00-a112-46a4-a4ca-18fab73f5ea7"/>
+<Units value="7"/>
+</Goal>
+<Goal index="5">
+<Context value="0"/>
+<Name value="SG Torque (X) 2"/>
+<UUID value="080843a1-7317-4a9b-8b25-8fec00dc3253"/>
+<Units value="39"/>
+</Goal>
+<Goal index="6">
+<Context value="0"/>
+<Name value="SG Torque (Y) 3"/>
+<UUID value="44d91279-cd2f-4f71-a2f1-5859214c7212"/>
+<Units value="39"/>
+</Goal>
+<Goal index="7">
+<Context value="0"/>
+<Name value="SG Torque (Z) 4"/>
+<UUID value="2357f264-6cb9-486e-ac65-5228faae5ef1"/>
+<Units value="39"/>
+</Goal>
+<Goal index="8">
+<Context value="1"/>
+<Name value="GG Force 1"/>
+<UUID value="7e02da01-45ad-49fd-9f26-d7ac9c95f88e"/>
+<Units value="7"/>
+</Goal>
+<Goal index="9">
+<Context value="1"/>
+<Name value="GG Force (X) 2"/>
+<UUID value="fdd8b82e-95d7-4a31-a726-41845d08338d"/>
+<Units value="7"/>
+</Goal>
+<Goal index="10">
+<Context value="1"/>
+<Name value="GG Force (Y) 3"/>
+<UUID value="02882e0a-d59e-43ab-ab73-42c19ba227d6"/>
+<Units value="7"/>
+</Goal>
+<Goal index="11">
+<Context value="1"/>
+<Name value="GG Force (Z) 4"/>
+<UUID value="fc106065-d863-4c31-842e-e9a8b42e5b30"/>
+<Units value="7"/>
+</Goal>
+<Goal index="12">
+<Context value="1"/>
+<Name value="SG Normal Force 1"/>
+<UUID value="bf81cb00-a112-46a4-a4ca-18fab73f5ea7"/>
+<Units value="7"/>
+</Goal>
+<Goal index="13">
+<Context value="1"/>
+<Name value="SG Torque (X) 2"/>
+<UUID value="080843a1-7317-4a9b-8b25-8fec00dc3253"/>
+<Units value="39"/>
+</Goal>
+<Goal index="14">
+<Context value="1"/>
+<Name value="SG Torque (Y) 3"/>
+<UUID value="44d91279-cd2f-4f71-a2f1-5859214c7212"/>
+<Units value="39"/>
+</Goal>
+<Goal index="15">
+<Context value="1"/>
+<Name value="SG Torque (Z) 4"/>
+<UUID value="2357f264-6cb9-486e-ac65-5228faae5ef1"/>
+<Units value="39"/>
+</Goal>
+</Goals>
+<Parameters index="0">
+<Feature index="0">
+<Group value="0"/>
+<Name value="Initial and Ambient Conditions"/>
+<UUID value="Initial and Ambient Conditions"/>
+</Feature>
+<Feature index="1">
+<Group value="1"/>
+<Name value=""/>
+<UUID value=""/>
+</Feature>
+<Group index="0">
+<ContentType value="0"/>
+<Name value="General Settings"/>
+<Type value="139"/>
+</Group>
+<Group index="1">
+<ContentType value="1"/>
+<Name value=""/>
+<Type value="0"/>
+</Group>
+<Parameter index="0">
+<Class value="0"/>
+<Context value="0"/>
+<Feature value="0"/>
+<Mark value="0"/>
+<Name value="Velocity in Y direction"/>
+<ParamPrefix value="0"/>
+<Type value="101"/>
+<Units value="19"/>
+<Value value="-20"/>
+<ValueType value="2"/>
+<Variation index="0">
+<Class value="1"/>
+<Max value="-20"/>
+<Min value="-60"/>
+<Step value="20"/>
+</Variation>
+</Parameter>
+<Parameter index="1">
+<Class value="0"/>
+<Context value="0"/>
+<Feature value="1"/>
+<Mark value="0"/>
+<Name value="D1@Angle1@Fin Tabs Assembly.Assembly"/>
+<ParamPrefix value="0"/>
+<Type value="-1"/>
+<Units value="2"/>
+<Value value="3.1415926535898002"/>
+<ValueType value="2"/>
+<Variation index="0">
+<Class value="1"/>
+<Max value="3.1154127100000002"/>
+<Min value="3.0805061299999998"/>
+<Step value="0.017453292499999998"/>
+</Variation>
+</Parameter>
+<Parameter index="2">
+<Class value="0"/>
+<Context value="1"/>
+<Feature value="0"/>
+<Mark value="0"/>
+<Name value="Velocity in Y direction"/>
+<ParamPrefix value="0"/>
+<Type value="101"/>
+<Units value="19"/>
+<Value value="-20"/>
+<ValueType value="2"/>
+<Variation index="0">
+<Class value="1"/>
+<Max value="-20"/>
+<Min value="-60"/>
+<Step value="20"/>
+</Variation>
+</Parameter>
+<Parameter index="3">
+<Class value="0"/>
+<Context value="1"/>
+<Feature value="1"/>
+<Mark value="0"/>
+<Name value="D1@Angle1@Fin Tabs Assembly.Assembly"/>
+<ParamPrefix value="0"/>
+<Type value="-1"/>
+<Units value="2"/>
+<Value value="3.1415926535898002"/>
+<ValueType value="2"/>
+<Variation index="0">
+<Class value="1"/>
+<Max value="3.1154127100000002"/>
+<Min value="3.0805061299999998"/>
+<Step value="0.017453292499999998"/>
+</Variation>
+</Parameter>
+</Parameters>
+<ScenarioCriteria index="0">
+</ScenarioCriteria>
+<Scenarios index="0">
+<Scenario index="0">
+<CPULimit value="0"/>
+<CloseMonitor value="1"/>
+<Computer value=""/>
+<Modified value="0"/>
+<ParetoPoint value="-1"/>
+<ProjectUUID value="bbc18b4e-9e17-4bd8-b155-12513880e97f"/>
+<Recalculate value="0"/>
+<SaveProject value="1"/>
+<Status value="0"/>
+<TakePreviousResults value="0"/>
+<UseCPULimit value="0"/>
+<UseComputer value="0"/>
+<Criteria index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</Criteria>
+<Goal index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="1">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="2">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="3">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="4">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="5">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="6">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="7">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<GoalDiscrepancy index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalDiscrepancy>
+<GoalTargetValue index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalTargetValue>
+<Parameter index="0">
+<Value value="-60"/>
+</Parameter>
+<Parameter index="1">
+<Value value="3.0805061299999998"/>
+</Parameter>
+</Scenario>
+<Scenario index="1">
+<CPULimit value="0"/>
+<CloseMonitor value="1"/>
+<Computer value=""/>
+<Modified value="0"/>
+<ParetoPoint value="-1"/>
+<ProjectUUID value="c49c1a14-6fd5-40ac-997d-668ad8c37fdb"/>
+<Recalculate value="0"/>
+<SaveProject value="1"/>
+<Status value="0"/>
+<TakePreviousResults value="0"/>
+<UseCPULimit value="0"/>
+<UseComputer value="0"/>
+<Criteria index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</Criteria>
+<Goal index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="1">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="2">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="3">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="4">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="5">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="6">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="7">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<GoalDiscrepancy index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalDiscrepancy>
+<GoalTargetValue index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalTargetValue>
+<Parameter index="0">
+<Value value="-40"/>
+</Parameter>
+<Parameter index="1">
+<Value value="3.0805061299999998"/>
+</Parameter>
+</Scenario>
+<Scenario index="2">
+<CPULimit value="0"/>
+<CloseMonitor value="1"/>
+<Computer value=""/>
+<Modified value="0"/>
+<ParetoPoint value="-1"/>
+<ProjectUUID value="b61ca38a-0bfd-4406-9722-89d22a4c27c8"/>
+<Recalculate value="0"/>
+<SaveProject value="1"/>
+<Status value="0"/>
+<TakePreviousResults value="0"/>
+<UseCPULimit value="0"/>
+<UseComputer value="0"/>
+<Criteria index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</Criteria>
+<Goal index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="1">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="2">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="3">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="4">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="5">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="6">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="7">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<GoalDiscrepancy index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalDiscrepancy>
+<GoalTargetValue index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalTargetValue>
+<Parameter index="0">
+<Value value="-20"/>
+</Parameter>
+<Parameter index="1">
+<Value value="3.0805061299999998"/>
+</Parameter>
+</Scenario>
+<Scenario index="3">
+<CPULimit value="0"/>
+<CloseMonitor value="1"/>
+<Computer value=""/>
+<Modified value="0"/>
+<ParetoPoint value="-1"/>
+<ProjectUUID value="f2fc2a89-d5e5-425f-b377-1845118157fb"/>
+<Recalculate value="0"/>
+<SaveProject value="1"/>
+<Status value="0"/>
+<TakePreviousResults value="0"/>
+<UseCPULimit value="0"/>
+<UseComputer value="0"/>
+<Criteria index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</Criteria>
+<Goal index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="1">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="2">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="3">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="4">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="5">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="6">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="7">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<GoalDiscrepancy index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalDiscrepancy>
+<GoalTargetValue index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalTargetValue>
+<Parameter index="0">
+<Value value="-60"/>
+</Parameter>
+<Parameter index="1">
+<Value value="3.0979594224999998"/>
+</Parameter>
+</Scenario>
+<Scenario index="4">
+<CPULimit value="0"/>
+<CloseMonitor value="1"/>
+<Computer value=""/>
+<Modified value="0"/>
+<ParetoPoint value="-1"/>
+<ProjectUUID value="4fec09e9-0726-43f7-99a3-560b6e84e749"/>
+<Recalculate value="0"/>
+<SaveProject value="1"/>
+<Status value="0"/>
+<TakePreviousResults value="0"/>
+<UseCPULimit value="0"/>
+<UseComputer value="0"/>
+<Criteria index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</Criteria>
+<Goal index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="1">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="2">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="3">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="4">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="5">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="6">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="7">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<GoalDiscrepancy index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalDiscrepancy>
+<GoalTargetValue index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalTargetValue>
+<Parameter index="0">
+<Value value="-40"/>
+</Parameter>
+<Parameter index="1">
+<Value value="3.0979594224999998"/>
+</Parameter>
+</Scenario>
+<Scenario index="5">
+<CPULimit value="0"/>
+<CloseMonitor value="1"/>
+<Computer value=""/>
+<Modified value="0"/>
+<ParetoPoint value="-1"/>
+<ProjectUUID value="fc758e71-fb54-4512-8d2f-2216fa177dcb"/>
+<Recalculate value="0"/>
+<SaveProject value="1"/>
+<Status value="0"/>
+<TakePreviousResults value="0"/>
+<UseCPULimit value="0"/>
+<UseComputer value="0"/>
+<Criteria index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</Criteria>
+<Goal index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="1">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="2">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="3">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="4">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="5">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="6">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="7">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<GoalDiscrepancy index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalDiscrepancy>
+<GoalTargetValue index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalTargetValue>
+<Parameter index="0">
+<Value value="-20"/>
+</Parameter>
+<Parameter index="1">
+<Value value="3.0979594224999998"/>
+</Parameter>
+</Scenario>
+<Scenario index="6">
+<CPULimit value="0"/>
+<CloseMonitor value="1"/>
+<Computer value=""/>
+<Modified value="0"/>
+<ParetoPoint value="-1"/>
+<ProjectUUID value="ad4d12e1-8cc1-4da0-a21d-95f4b1783a4b"/>
+<Recalculate value="0"/>
+<SaveProject value="1"/>
+<Status value="0"/>
+<TakePreviousResults value="0"/>
+<UseCPULimit value="0"/>
+<UseComputer value="0"/>
+<Criteria index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</Criteria>
+<Goal index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="1">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="2">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="3">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="4">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="5">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="6">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="7">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<GoalDiscrepancy index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalDiscrepancy>
+<GoalTargetValue index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalTargetValue>
+<Parameter index="0">
+<Value value="-60"/>
+</Parameter>
+<Parameter index="1">
+<Value value="3.1154127100000002"/>
+</Parameter>
+</Scenario>
+<Scenario index="7">
+<CPULimit value="0"/>
+<CloseMonitor value="1"/>
+<Computer value=""/>
+<Modified value="0"/>
+<ParetoPoint value="-1"/>
+<ProjectUUID value="af3e9d00-315a-4873-b579-720e7970fcc1"/>
+<Recalculate value="0"/>
+<SaveProject value="1"/>
+<Status value="0"/>
+<TakePreviousResults value="0"/>
+<UseCPULimit value="0"/>
+<UseComputer value="0"/>
+<Criteria index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</Criteria>
+<Goal index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="1">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="2">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="3">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="4">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="5">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="6">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="7">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<GoalDiscrepancy index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalDiscrepancy>
+<GoalTargetValue index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalTargetValue>
+<Parameter index="0">
+<Value value="-40"/>
+</Parameter>
+<Parameter index="1">
+<Value value="3.1154127100000002"/>
+</Parameter>
+</Scenario>
+<Scenario index="8">
+<CPULimit value="0"/>
+<CloseMonitor value="1"/>
+<Computer value=""/>
+<Modified value="0"/>
+<ParetoPoint value="-1"/>
+<ProjectUUID value="940b7279-435e-4901-8c70-7e0ca2758077"/>
+<Recalculate value="0"/>
+<SaveProject value="1"/>
+<Status value="0"/>
+<TakePreviousResults value="0"/>
+<UseCPULimit value="0"/>
+<UseComputer value="0"/>
+<Criteria index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</Criteria>
+<Goal index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="1">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="2">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="3">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="4">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="5">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="6">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<Goal index="7">
+<Solved value="0"/>
+<Value value="0"/>
+</Goal>
+<GoalDiscrepancy index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalDiscrepancy>
+<GoalTargetValue index="0">
+<Solved value="0"/>
+<Value value="0"/>
+</GoalTargetValue>
+<Parameter index="0">
+<Value value="-20"/>
+</Parameter>
+<Parameter index="1">
+<Value value="3.1154127100000002"/>
+</Parameter>
+</Scenario>
+</Scenarios>
+</settings>

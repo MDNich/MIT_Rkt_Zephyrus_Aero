@@ -1,0 +1,60 @@
+Model: Fin Tabs Assembly.SLDASM
+Project name: 600ms2deg
+Config name: 2deg
+Project path: Z:\Developer\MIT_Rkt_Team\Githubs\MIT_Rkt_Zephyrus_Aero\CFD\sldwrks\08.12.2025\39\Parametric Study 1\85\85.xmlconfig
+Status: Finished
+
+Number of cells:
+    Total cells: 173090
+    Fluid cells: 173090
+    Solid cells: 803
+    Fluid cells containing solids: 603
+
+
+Geometry preparation finished: 01:12:17
+Geometry preparation time: 00:00:06
+Solver CPU time: 00:08:45
+Iterations: 346
+Travels: 3.10424
+Physical time: 0.000000e+00 s
+Current time step: 0.000000e+00 s
+Last iteration finished: 01:20:46
+CPU time per last iteration: 00:00:01
+CPU time left: 00:00:13
+Iterations per 1 travel: 112
+
+Goals
+    Name              | Unit (SI) | Value           | Progress  | Critetia        | Delta           | Use in convergence
+    GG Force 1        | force    |            8.03 |     100.0 |            0.34 |            0.01 | On
+    GG Force (X) 2    | force    |            0.04 |     100.0 |            0.03 |            0.03 | On
+    GG Force (Y) 3    | force    |           -8.03 |     100.0 |            0.34 |            0.01 | On
+    GG Force (Z) 4    | force    |            0.28 |     100.0 |            0.03 |            0.02 | On
+    SG Normal Force 1 | force    |            0.05 |     100.0 |            0.00 |            0.00 | On
+    SG Torque (X) 2   | momentum |           -0.00 |     100.0 |            0.00 |            0.00 | On
+    SG Torque (Y) 3   | momentum |            0.01 |     100.0 |            0.00 |            0.00 | On
+    SG Torque (Z) 4   | momentum |            0.00 |     100.0 |            0.00 |            0.00 | On
+
+Project details
+    Default fluids: Air
+    Analysis type: External
+    Heat conduction in solids: Off
+    Radiation: Off
+    Time dependent: Off
+    Gravitational effects: Off
+    Flow type: Laminar
+    Cavitation: Off
+    Hign Mach number flow: On
+    Free surface: Off
+    Structural: Off
+    Electromagnetism: Off
+
+System info
+    Product: Flow Simulation 2025  x64 / 6784 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2
+    CAD version: SOLIDWORKS 2025 SP3.0
+    Computer name: MARCDNICHITBF25
+    User name: mdn
+    Operating system: Windows 11 (or higher) (Version 10.0.22631)
+    Processors:                           Virtual CPU @ 3.20GHz
+    Number of cores: 14
+    Memory: 102320 MB / 114682 MB
+

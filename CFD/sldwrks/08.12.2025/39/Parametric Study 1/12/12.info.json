@@ -1,0 +1,144 @@
+{
+    "version": 0,
+    "model_name": "Fin Tabs Assembly.SLDASM",
+    "project_name": "600ms2deg",
+    "config_name": "2deg",
+    "project_path": "Z:\\Developer\\MIT_Rkt_Team\\Githubs\\MIT_Rkt_Zephyrus_Aero\\CFD\\sldwrks\\08.12.2025\\39\\Parametric Study 1\\12\\12.xmlconfig",
+    "finished": true,
+    "mesh": {
+        "cells_total": 173090,
+        "cells_fluid": 173090,
+        "cells_solid": 807,
+        "cells_fluid_containing_solid": 607
+    },
+    "telemetry": {
+        "prepare_geometry_finished": "15:20:04-0400",
+        "prepare_geometry_total_time": 5,
+        "cpu_time_solver_total": 592,
+        "iteration": 225,
+        "travel": 2.018653898757075,
+        "phys_time": 0.0,
+        "time_step": 0.0,
+        "last_iteration_finished": "15:29:43-0400",
+        "cpu_time_per_last_iter": 1,
+        "cpu_time_left": 3,
+        "iterations_per_travel": 112
+    },
+    "goals": [
+        {
+            "goal": {
+                "name": "GG Force 1",
+                "unit": "force",
+                "value": 10.037071018875704,
+                "progress": 100.0,
+                "criteria": 0.3842132255097545,
+                "delta": 0.019320844156409223,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Force (X) 2",
+                "unit": "force",
+                "value": 0.027989249976609072,
+                "progress": 100.0,
+                "criteria": 0.04059904490652026,
+                "delta": 0.03824477407725475,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Force (Y) 3",
+                "unit": "force",
+                "value": -10.031140303513727,
+                "progress": 100.0,
+                "criteria": 0.38198695538383604,
+                "delta": 0.0196105705526044,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Force (Z) 4",
+                "unit": "force",
+                "value": 0.343853822230983,
+                "progress": 100.0,
+                "criteria": 0.04282103635955389,
+                "delta": 0.02826513352158666,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Normal Force 1",
+                "unit": "force",
+                "value": 0.08215596327510433,
+                "progress": 100.0,
+                "criteria": 0.0015016385825798303,
+                "delta": 0.000417582913327344,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Torque (X) 2",
+                "unit": "momentum",
+                "value": -0.005106371888259837,
+                "progress": 100.0,
+                "criteria": 0.00011889085208380298,
+                "delta": 3.849198890968925e-05,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Torque (Y) 3",
+                "unit": "momentum",
+                "value": 0.01613610062905862,
+                "progress": 100.0,
+                "criteria": 0.0002858112436865015,
+                "delta": 7.566347225767406e-05,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Torque (Z) 4",
+                "unit": "momentum",
+                "value": 0.002828733783778068,
+                "progress": 100.0,
+                "criteria": 8.857215334461587e-05,
+                "delta": 3.1182889600240085e-05,
+                "use_in_convergence": true
+            }
+        }
+    ],
+    "settings": {
+        "default_fluids": [
+            "Air"
+        ],
+        "analysis_type": "external",
+        "heat_conduction_in_solids": false,
+        "radiation": false,
+        "time_dependent": false,
+        "gravity": false,
+        "flow_type": "laminar",
+        "cavitation": false,
+        "high_mach_number": true,
+        "free_surface": false,
+        "structural": false,
+        "electromagnetism": false
+    },
+    "system_info": {
+        "product_name": "Flow Simulation 2025  x64 / 6784 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2",
+        "cad_version": "SOLIDWORKS 2025 SP3.0",
+        "computer_name": "MARCDNICHITBF25",
+        "user_name": "mdn",
+        "os": "Windows 11 (or higher) (Version 10.0.22631)",
+        "cpu": "                          Virtual CPU @ 3.20GHz",
+        "number_of_cores": 14,
+        "memory_avail": 105194,
+        "memory_total": 114682
+    }
+}

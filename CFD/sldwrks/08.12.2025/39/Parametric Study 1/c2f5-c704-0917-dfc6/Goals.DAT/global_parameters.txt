@@ -1,0 +1,2 @@
+Iteration	CPUTime	PhysTime	Travels
+1	11	0	0.000568181818
