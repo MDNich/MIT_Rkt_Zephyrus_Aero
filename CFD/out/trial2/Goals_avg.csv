@@ -1,0 +1,5 @@
+,,,,,,,,,,
+,Goal (Value),Design Point 1,Design Point 2,Design Point 3,Design Point 4,Design Point 5,Design Point 6,Design Point 7,Design Point 8,Design Point 9
+,Velocity in X direction (Initial and Ambient Conditions) [m/s],20,40,60,20,40,60,20,40,60
+,D1@Angle1@CFD_assem.Assembly [rad],"0,174532925","0,174532925","0,174532925","0,104719755","0,104719755","0,104719755","0,034906585","0,034906585","0,034906585"
+,SG Normal Force 1 [N],"0,0242032137454502","0,0970458525961217","0,220174144644487","0,0245076302052629","0,0975260158313073","0,219672726345635","0,0251182794492789","0,100775172264226","0,226056600518262"
