@@ -27,6 +27,9 @@ normalForcePlot = np.reshape(normalForceDat,(len(angU),len(velU)))
 torqueServoDat = normalForceDat * 0.016 # meters
 torqueServoPlot = np.reshape(torqueServoDat,(len(angU),len(velU)))
 
+
+
+
 # --- import data from second simulation ---
 
 csvOut2 = np.array(pd.read_csv('partialStudy_results.csv'))
@@ -60,6 +63,36 @@ from matplotlib import rcParams
 rcParams['font.family'] = 'serif'
 rcParams['font.sans-serif'] = ['Computer Modern']
 rcParams['text.usetex'] = True
+
+
+quadModel = lambda x,a,b,c: a*x*x + b*x + c
+
+plt.subplots()
+import scipy.optimize as spopt
+for i in range(len(torqueServoPlot)):
+	plt.scatter(velU,torqueServoPlot[i],marker='x')
+	opt0,pcov = spopt.curve_fit(quadModel,velU,torqueServoPlot[i])
+	velPlot = np.linspace(velU[0],velU[-1],1000)
+	plt.plot(velPlot,quadModel(velPlot,*opt0),label=np.round(angU[i],2))
+
+plt.legend()
+
+plt.show()
+
+plt.subplots()
+import scipy.optimize as spopt
+for i in range(len(torqueServoPlot[0])):
+	plt.plot(angU,torqueServoPlot[:,i],marker='x')
+	#opt0,pcov = spopt.curve_fit(quadModel,velU,torqueServoPlot[:,i])
+	#velPlot = np.linspace(velU[0],velU[-1],1000)
+	#plt.plot(velPlot,quadModel(velPlot,*opt0),label=np.round(angU[i],2))
+
+plt.legend()
+
+plt.show()
+exit(0)
+
+
 
 fig,ax = plt.subplots()
 

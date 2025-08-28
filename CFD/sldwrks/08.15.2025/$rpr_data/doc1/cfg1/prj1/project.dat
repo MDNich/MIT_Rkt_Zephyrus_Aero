@@ -3,12 +3,12 @@
 	<version>1</version>
 	<computational_domain>
 		<cd_box>
-			<item>0.60099999999999998</item>
-			<item>0.76156455290867253</item>
-			<item>-0.12291891164680524</item>
-			<item>2.1023254797977939</item>
-			<item>1.4732003029791669</item>
-			<item>2.722838307023105</item>
+			<item>0.50789906454773559</item>
+			<item>0.86092517893782805</item>
+			<item>-0.0019205563148836369</item>
+			<item>1.9706794436851154</item>
+			<item>1.475124288758642</item>
+			<item>2.9119269961679071</item>
 		</cd_box>
 		<cd_symmetry>
 			<item>false</item>
@@ -45,29 +45,37 @@
 		</sector_reference_dir>
 	</computational_domain>
 	<model_box>
-		<item>0.59923050284457191</item>
-		<item>0.76717144772649792</item>
+		<item>0.48923050284457192</item>
+		<item>0.87717144772649791</item>
 		<item>0.84347944368511585</item>
 		<item>1.1252794436851159</item>
 		<item>1.3171389721788458</item>
 		<item>1.5989389721788456</item>
 	</model_box>
-	<cd_dim>2.557164192199707</cd_dim>
-	<model_dim>0.43246576855033741</model_dim>
+	<cd_dim>2.4658021926879883</cd_dim>
+	<model_dim>0.55616603340718451</model_dim>
 	<flow_space_type>0</flow_space_type>
 	<problem_type>2</problem_type>
 	<rotation_type>0</rotation_type>
 	<plane_irr_shift>4.3300999999999998e-05</plane_irr_shift>
-	<min_grid_step>0.0076714925467967991</min_grid_step>
+	<min_grid_step>0.0017651305719504622</min_grid_step>
 	<transient>false</transient>
 	<task_attributes>
-		<arrFSubst/>
+		<arrFSubst>
+			<item>
+				<SubstUUID>2B966F4A9A9F11D4A50048A0E8000000</SubstUUID>
+				<SubstNAME>Air</SubstNAME>
+				<AllowedMF>true</AllowedMF>
+				<AllowedVF>true</AllowedVF>
+				<AllowedF>true</AllowedF>
+			</item>
+		</arrFSubst>
 		<arrCombustionProductsAllowed/>
 		<arrSubstUUIDs_immi/>
 		<arrSubstNAMESs_immi/>
 		<b_SUPPORT>false</b_SUPPORT>
 		<b_CPT_only>false</b_CPT_only>
-		<b_Use_surface>true</b_Use_surface>
+		<b_Use_surface>false</b_Use_surface>
 		<b_HMN>false</b_HMN>
 		<b_IsAnyCompressible>true</b_IsAnyCompressible>
 		<b_IsAnyGas>true</b_IsAnyGas>
@@ -132,26 +140,26 @@
 	<dyn_traj_vel_min>20</dyn_traj_vel_min>
 	<dyn_traj_vel_max>500</dyn_traj_vel_max>
 	<support>false</support>
-	<project_name>Design Point 1</project_name>
-	<config_name>0deg</config_name>
+	<project_name>4degStudy</project_name>
+	<config_name>4deg</config_name>
 	<model_name>CFD_assem.SLDASM</model_name>
 	<res_file_key>
 		<key0/>
 		<key1/>
 		<key2/>
-		<key3>c42fc7ba-4124-49ac-bbd2-6d6acc1e66cf</key3>
-		<key4>7f06fe83-1894-4c5f-91f3-5c6a5e6c58f0</key4>
-		<key5>358c1fc6-dd79-4d91-92a3-f5d2e7099086</key5>
-		<key6>00cd6165-849f-4835-9b31-67cd72b75726</key6>
-		<key7>6d7f3346-da24-476f-a028-483a2dcd2174</key7>
-		<key8>b2506217-e53b-40fc-a211-207a4cfd13ea</key8>
-		<key9>6042cebd-1484-4a57-89c1-0b213c7a697d</key9>
-		<key10>89b72d29-b78b-4796-94a9-1077dc1d5d15</key10>
+		<key3>31f13140-2717-4984-bf3e-b0561bea7073</key3>
+		<key4>62a5e469-f3a9-475f-ab73-6c17ab2a1ccb</key4>
+		<key5>e1e8f42e-3ef0-47df-a829-313ad416c0d3</key5>
+		<key6>feda09c2-55ec-49c7-a2a5-36e6349d2f11</key6>
+		<key7>40e0481b-d9a3-428d-ae99-7b040ab7388e</key7>
+		<key8>a265c526-44e5-450e-807a-606417355d14</key8>
+		<key9>428f4837-b450-4cbc-8bfd-533924bdd95a</key9>
+		<key10>5caa01b1-d543-4224-beab-4799802479ba</key10>
 		<key11/>
 		<key12/>
 		<key13/>
 		<key14/>
-		<key15>175b3f75-ada3-4412-aaf5-fe0b9184aa51</key15>
+		<key15>1f1c7639-53f4-415c-8f1c-55dad854f775</key15>
 		<key16/>
 	</res_file_key>
 	<license>

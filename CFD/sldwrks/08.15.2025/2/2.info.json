@@ -1,0 +1,78 @@
+{
+    "version": 0,
+    "model_name": "CFD_assem.SLDASM",
+    "project_name": "4degStudy",
+    "config_name": "4deg",
+    "project_path": "Z:\\Developer\\MIT_Rkt_Team\\Githubs\\MIT_Rkt_Zephyrus_Aero\\CFD\\sldwrks\\08.15.2025\\2\\2.xmlconfig",
+    "finished": true,
+    "mesh": {
+        "cells_total": 139274,
+        "cells_fluid": 139274,
+        "cells_solid": 1231,
+        "cells_fluid_containing_solid": 849
+    },
+    "telemetry": {
+        "prepare_geometry_finished": "16:20:15-0400",
+        "prepare_geometry_total_time": 6,
+        "cpu_time_solver_total": 429,
+        "iteration": 415,
+        "travel": 4.003084458855532,
+        "phys_time": 0.0,
+        "time_step": 0.0,
+        "last_iteration_finished": "16:27:13-0400",
+        "cpu_time_per_last_iter": 1,
+        "cpu_time_left": 0,
+        "iterations_per_travel": 104
+    },
+    "goals": [
+        {
+            "goal": {
+                "name": "GG Force (Y) 1",
+                "unit": "force",
+                "value": -1.023166878051301,
+                "progress": 58.2,
+                "criteria": 0.0579987890834547,
+                "delta": 0.09949853119976182,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Normal Force 1",
+                "unit": "force",
+                "value": 1.3649978161274574,
+                "progress": 100.0,
+                "criteria": 0.03608274146486821,
+                "delta": 0.0062939877520711285,
+                "use_in_convergence": true
+            }
+        }
+    ],
+    "settings": {
+        "default_fluids": [
+            "Air"
+        ],
+        "analysis_type": "external",
+        "heat_conduction_in_solids": false,
+        "radiation": false,
+        "time_dependent": false,
+        "gravity": false,
+        "flow_type": "laminar",
+        "cavitation": false,
+        "high_mach_number": true,
+        "free_surface": false,
+        "structural": false,
+        "electromagnetism": false
+    },
+    "system_info": {
+        "product_name": "Flow Simulation 2025  x64 / 6784 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2",
+        "cad_version": "SOLIDWORKS 2025 SP3.0",
+        "computer_name": "MARCDNICHITBF25",
+        "user_name": "mdn",
+        "os": "Windows 11 (or higher) (Version 10.0.22631)",
+        "cpu": "                          Virtual CPU @ 3.20GHz",
+        "number_of_cores": 14,
+        "memory_avail": 107244,
+        "memory_total": 114682
+    }
+}

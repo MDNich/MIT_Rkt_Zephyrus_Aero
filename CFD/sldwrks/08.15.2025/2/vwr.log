@@ -1,0 +1,118 @@
+Log started at 26.08.2025	15:34:42
+viewer project directory: "Z:\Developer\MIT_Rkt_Team\Githubs\MIT_Rkt_Zephyrus_Aero\CFD\sldwrks\08.15.2025\2"
+Windows 11 (or higher) (Version 10.0.22631)
+AuthenticAMD, Stepping ID = 10, Model = 4, Family = 15, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String:                           Virtual CPU @ 3.20GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 512K
+Number of cores: 14, Processor type: 8664, Active processor mask: 16383, Page size: 4096 bites
+Package 0 [ ProcessorGroup 0 [ 0 ] ]
+Package 1 [ ProcessorGroup 0 [ 1 ] ]
+Package 2 [ ProcessorGroup 0 [ 2 ] ]
+Package 3 [ ProcessorGroup 0 [ 3 ] ]
+Package 4 [ ProcessorGroup 0 [ 4 ] ]
+Package 5 [ ProcessorGroup 0 [ 5 ] ]
+Package 6 [ ProcessorGroup 0 [ 6 ] ]
+Package 7 [ ProcessorGroup 0 [ 7 ] ]
+Package 8 [ ProcessorGroup 0 [ 8 ] ]
+Package 9 [ ProcessorGroup 0 [ 9 ] ]
+Package 10 [ ProcessorGroup 0 [ 10 ] ]
+Package 11 [ ProcessorGroup 0 [ 11 ] ]
+Package 12 [ ProcessorGroup 0 [ 12 ] ]
+Package 13 [ ProcessorGroup 0 [ 13 ] ]
+NUMA Node 0: Available Memory = 104.50 Gb. ProcessorGroup 0 [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 ]
+std::thread::hardware_concurrency = 14
+No NUMA support
+OpenMP enabled (spec=200203). max_threads = 14, num_procs = 14.
+Loading fld "Z:\Developer\MIT_Rkt_Team\Githubs\MIT_Rkt_Zephyrus_Aero\CFD\sldwrks\08.15.2025\2\start0.fld"
+Memory status before mesh load:
+-----------------------------------------------------------------------
+Memory Working Set Current = 50.43 Mb, Memory Working Set Peak = 50.43 Mb
+Memory Private Bytes Current = 31.02 Mb, Memory Private Bytes Peak = 34.21 Mb
+Process Threads Number: 10
+-----------------------------------------------------------------------
+bcf::mesh::read_bcf_mesh: started...
+Read section 436 takes 0.001 s
+Read section 101 takes 0.000 s
+Read section 400 takes 0.016 s
+Read section 437 takes 0.002 s
+Read section 446 takes 0.000 s
+Read section 516 takes 0.000 s
+Read section 406 takes 0.011 s
+Read section 405 takes 0.002 s
+Read section 401 takes 0.036 s
+Read section 402 takes 0.019 s
+Adding faces to av takes 0.007 s
+Read section 407 takes 0.001 s
+Read section 421 takes 0.008 s
+Read section 404 takes 0.001 s
+Read section 416 takes 0.002 s
+Read section 411 takes 0.000 s
+Read section 413 takes 0.000 s
+Read section 432 takes 0.006 s
+-----------------------------------------------------------------------
+Memory Working Set Current = 108.16 Mb, Memory Working Set Peak = 108.87 Mb
+Memory Private Bytes Current = 97.76 Mb, Memory Private Bytes Peak = 99.41 Mb
+Process Threads Number: 23
+-----------------------------------------------------------------------
+----------------------------------------------------------
+BCF --> BCF.GEOMSUBDOM (bridge arrays):
+MESH (0):
+	Front spread algorithm. Partition count = 14
+	Time (front spread): 0.008 s
+	Fluid Subdom Constructor: 1 subdom(s).
+	Front spread algorithm. Partition count = 14
+	Time (front spread): 0.001 s
+	Solid Subdom Constructor: 1 subdom(s).
+	Front spread algorithm. Partition count = 14
+	Time (front spread): 0.001 s
+	Net Asm Subdom Constructor: 0 subdom(s).
+	GEOMSUBDOM (0): gi=0 Fluid av=139274 cv=139266 fa=408875 fw=18637 V=9.995941e-01
+	Cache data...OK
+	GEOMSUBDOM (1): gi=1 Solid av=1231 cv=1231 fa=3076 fw=1577 V=9.655749e-04
+	Cache data...OK
+	Setting nb of w-faces...OK (0.002 s).
+	Correcting nb of w-faces...
+	Time(correct_fw_nb)=0.003 s
+
+MESH (0) checking:
+	GEOMSUBDOM (0):fa_s=161.9837204749728130 fw_s=8.1026368483777595 fw_nb=149012
+	              :d_const(37354)=1.75025e-12 d_linear(37354)=3.04448e-12
+	GEOMSUBDOM (1):fa_s=0.2495503211374324 fw_s=0.1062107662075190 fw_nb=10936
+	              :d_const(765)=8.91471e-12 d_linear(765)=3.9789e-11
+MESH (0) checking: OK.
+Time (MDS): 	0.128 s
+----------------------------------------------------------
+-----------------------------------------------------------------------
+Memory Working Set Current = 160.32 Mb, Memory Working Set Peak = 160.32 Mb
+Memory Private Bytes Current = 160.31 Mb, Memory Private Bytes Peak = 160.32 Mb
+Process Threads Number: 23
+-----------------------------------------------------------------------
+Read section 448 takes 0.000 s
+bcf::mesh::read_bcf_mesh: finished in 0.248 s
+Memory status after mesh load:
+-----------------------------------------------------------------------
+Memory Working Set Current = 159.25 Mb, Memory Working Set Peak = 160.32 Mb
+Memory Private Bytes Current = 159.25 Mb, Memory Private Bytes Peak = 160.32 Mb
+Process Threads Number: 23
+-----------------------------------------------------------------------
+Read cpt took 0.27 sec.
+reading static calculation settings from cfld with cfld_uuid {60dff168-a263-4330-bb27-97978ef1c791}
+EXTERNAL=1   LAMTURB=-1   CHT=0
+IT=6   NT=0   NZ=1
+U_DIM_EXT_MAX=8   US_DIM=0
+Read section 404 takes 0.001 s
+Read section 433 takes 0.007 s
+
+===ThermodynamicsHolder:===
+Subdom 0 Ideal gas thermodynamics
+	substance 0 type=fwGas, guid=2B966F4A9A9F11D4A50048A0E8000000, name=Air
+===ThermodynamicsHolder:===
+MESH::Bricks: Total=139656
+CD X0= 0.507899064548, X1= 0.860925178938, Y0= -0.00192055631488, Y1= 1.97067944369, Z0= 1.47512428876, Z1= 2.91192699617
+Read cfld took 0.03 sec.
+Read fld took 0.39 sec.
+127 parameter(s) in list of scalar parameters
+7 parameter(s) in list of vector parameters
+Free bcf...            OK	Time=0.002 s
+releasing global objects
+Log ended at 26.08.2025	15:34:47

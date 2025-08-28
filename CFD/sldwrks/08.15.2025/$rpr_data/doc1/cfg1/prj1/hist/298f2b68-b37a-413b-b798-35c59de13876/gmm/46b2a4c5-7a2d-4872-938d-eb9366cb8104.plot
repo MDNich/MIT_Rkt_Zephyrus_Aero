@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feature>
+	<version>1</version>
+	<uuid/>
+	<name>Global Min/Max: Heat Transfer Coefficient</name>
+	<type>13</type>
+	<res_file_key>46b2a4c5-7a2d-4872-938d-eb9366cb8104</res_file_key>
+	<cs_name/>
+	<cs_uuid/>
+	<x_form>
+		<global>true</global>
+		<origin>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+		</origin>
+		<translate>
+			<item>1</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>1</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>1</item>
+		</translate>
+	</x_form>
+	<display_bl>false</display_bl>
+	<interpolate>true</interpolate>
+	<use_cad_geom>false</use_cad_geom>
+	<moving_reference>true</moving_reference>
+	<moving_display>true</moving_display>
+	<full_task>false</full_task>
+	<use_in_BRP>false</use_in_BRP>
+	<parameter>
+		<uuid>68F9065A-1438-47ca-A525-C1C7035D73CB</uuid>
+		<name>Heat Transfer Coefficient</name>
+		<unit>38</unit>
+		<formula/>
+		<formula2/>
+		<formula3/>
+		<locality>0</locality>
+	</parameter>
+</feature>
