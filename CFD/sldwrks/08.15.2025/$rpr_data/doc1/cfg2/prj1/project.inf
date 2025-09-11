@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<version>1</version>
+	<name>FlowSim</name>
+	<uuid>04452349-dfa0-46c8-b22d-d166af530178</uuid>
+	<directory>prj1</directory>
+	<vwr_res_files_dir>1</vwr_res_files_dir>
+	<geom_db_uuid>418f5419-f657-4420-a17a-6678aca0926a</geom_db_uuid>
+	<gdb_light_uuid>2f491034-1a33-4452-abef-628c2654c4e4</gdb_light_uuid>
+	<model_geom_uuid>f1754e27-314f-454a-9112-a34abb320ef0</model_geom_uuid>
+	<template_id/>
+</project>
