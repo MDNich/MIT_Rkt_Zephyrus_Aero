@@ -2,3 +2,4 @@
 *.h5
 CFD/ansys/09.10.2025/10degTest_files/dp0/FFF-1/MECH/FFF-1.1.msh
 *.msh
+*.ip

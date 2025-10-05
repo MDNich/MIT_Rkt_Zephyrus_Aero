@@ -1,0 +1,8 @@
+# encoding: utf-8
+# 2024 R2
+SetScriptVersion(Version="24.2.133")
+system1 = GetSystem(Name="FFF 1")
+system1.Copy(KeepConnections=True)
+system2 = GetSystem(Name="FFF 2")
+geometry1 = system2.GetContainer(ComponentName="Geometry")
+geometry1.SetFile(FilePath="Z:/Developer/MIT_Rkt_Team/Githubs/MIT_Rkt_Zephyrus_Aero/AeroShell_proj/uj/ansys_wd/newshell_supersonic_trapezoid_cfd.STEP")
