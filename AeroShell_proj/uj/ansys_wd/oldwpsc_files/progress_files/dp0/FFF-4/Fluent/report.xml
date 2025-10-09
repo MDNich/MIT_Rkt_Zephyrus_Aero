@@ -138,9 +138,8 @@ Boundary Conditions
 
       outlet
 
-         Condition                                         Value   
-         -------------------------------------------------------
-         Build artificial walls to prevent reverse flow?   yes     
+         Condition   Value   
+         -----------------
 
 </BoundaryConditions>
 
